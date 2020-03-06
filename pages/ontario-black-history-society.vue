@@ -704,10 +704,8 @@ export default {
       $("#imageModal").modal("show");
     }
   },
-  created() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
   mounted() {
+    window.addEventListener("scroll", this.handleScroll);
     this.sections = this.$refs.main.querySelectorAll("section");
   },
   destroyed() {
