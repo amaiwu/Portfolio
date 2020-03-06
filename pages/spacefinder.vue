@@ -117,7 +117,7 @@
         style="flex-grow: 1"
       >
         <article class="text-center col-md-5">
-          <h1 class="mb-4">
+          <h1 class="mb-4 main-text">
             Spacefinder
           </h1>
           <p>
@@ -1039,5 +1039,17 @@ aside.invisible {
   background-position: -25vw;
   background-size: 60%;
 }
+}
+
+@media (max-width: 600px) {
+ #main h1.main-text {
+  font-size: 40px;
+  line-height: 120%;
+}
+
+ #main p {
+font-size: 20px;
+line-height: 180%;
+ }
 }
 </style>

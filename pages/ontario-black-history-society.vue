@@ -95,7 +95,7 @@
         style="flex-grow: 1"
       >
         <article class="text-center col-lg-8 col-xl-5 col-md-10">
-          <h1 class="mb-4">
+          <h1 class="mb-4 main-text">
             Ontario Black History Society
           </h1>
           <p>
@@ -906,5 +906,17 @@ h6 {
     background-position: -35vw;
     background-size: 70%;
   }
+}
+
+@media (max-width: 600px) {
+ #main h1.main-text {
+  font-size: 40px;
+  line-height: 120%;
+}
+
+ #main p {
+font-size: 20px;
+line-height: 180%;
+ }
 }
 </style>

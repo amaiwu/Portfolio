@@ -8,7 +8,7 @@
         data-aos-easing="ease-in-back"
         data-aos-once="true"
       >
-        <p>
+        <p class="main-text">
           I’m Chiamaka, a User Experience Designer and Frontend Developer
           focused on creating seemless user experiences.
         </p>
@@ -220,5 +220,12 @@ p.project-title {
 footer {
   font-size: 12px;
   color: #47546f;
+}
+
+@media (max-width: 600px) {
+ p.main-text {
+  font-size: 24px;
+  line-height: 150%;
+}
 }
 </style>

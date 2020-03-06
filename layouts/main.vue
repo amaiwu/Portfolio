@@ -67,4 +67,5 @@ nav li .nuxt-link-active {
   left: 0;
   border-radius: 4px;
 }
+
 </style>
