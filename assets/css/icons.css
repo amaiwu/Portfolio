@@ -1,0 +1,45 @@
+/* Cova Icons Pack */
+.icon{
+    background-color: #ffffff;
+    display: inline-block;
+    transition: all 0.5s;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .icon.down-arrow {
+    -webkit-mask: url(../images/icons/down-arrow.svg) no-repeat center left;
+    mask: url(../images/icons/down-arrow.svg) no-repeat center left;
+  }
+  .icon.down-arrow-small {
+    -webkit-mask: url(../images/icons/down-arrow-small.svg) no-repeat center left;
+    mask: url(../images/icons/down-arrow-small.svg) no-repeat center left;
+  }
+  .icon.confused {
+    -webkit-mask: url(../images/confused.svg) no-repeat center left;
+    mask: url(../images/confused.svg) no-repeat center left;
+  }
+  .icon.alarm {
+    -webkit-mask: url(../images/icons/alarm.svg) no-repeat center left;
+    mask: url(../images/icons/alarm.svg) no-repeat center left;
+  }
+  .icon.questions {
+    -webkit-mask: url(../images/icons/questions.svg) no-repeat center left;
+    mask: url(../images/icons/questions.svg) no-repeat center left;
+  }
+  .icon.right-arrow {
+    -webkit-mask: url(../images/icons/right-arrow.svg) no-repeat center left;
+    mask: url(../images/icons/right-arrow.svg) no-repeat center left;
+  }
+  .icon.hierarchy {
+    -webkit-mask: url(../images/icons/hierarchy.svg) no-repeat center left;
+    mask: url(../images/icons/hierarchy.svg) no-repeat center left;
+  }
+  .icon.navigation {
+    -webkit-mask: url(../images/icons/navigation.svg) no-repeat center left;
+    mask: url(../images/icons/navigation.svg) no-repeat center left;
+  }
+  .icon.search-large {
+    -webkit-mask: url(../images/icons/search-large.svg) no-repeat center left;
+    mask: url(../images/icons/search-large.svg) no-repeat center left;
+  }
