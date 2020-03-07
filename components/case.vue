@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light d-md-flex justify-content-between px-5 pt-3"
+      class="navbar navbar-expand-lg navbar-light bg-light d-md-flex justify-content-between px-lg-5 pt-3"
       :style="{ color: navColor }"
     >
       <nuxt-link to="/" exact class="navbar-brand" href="#"
