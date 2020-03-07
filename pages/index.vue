@@ -26,12 +26,13 @@
         </h1>
         <div
           class="row justify-content-between mb-5"
+          
+        >
+          <div
           data-aos="fade-in"
           data-aos-duration="500"
           data-aos-easing="ease-in"
           data-aos-once="true"
-        >
-          <div
             class="col-md-5 d-flex flex-column justify-content-center order-md-0 order-1"
           >
             <div class="tags">Spacefinder • UX Case Study</div>
@@ -53,12 +54,13 @@
         </div>
         <div
           class="row justify-content-between mb-5"
+          
+        >
+          <div
           data-aos="fade-in"
           data-aos-duration="500"
           data-aos-easing="ease-in"
           data-aos-once="true"
-        >
-          <div
             class="col-md-5 d-flex flex-column justify-content-center order-md-0 order-1"
           >
             <div class="tags">OBHS • UX Case Study</div>
@@ -136,6 +138,9 @@ import Logo from "~/components/Logo.vue";
 
 export default {
   layout: "main",
+  head: {
+    title: "Chiamaka's Portfolio"
+  },
   components: {
     Logo
   }

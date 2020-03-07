@@ -62,7 +62,10 @@ nav li .nuxt-link-active {
   position: relative;
   color: white !important;
 }
-.nuxt-link-active.nav-link::before {
+
+
+@media (min-width: 992px) {
+ .nuxt-link-active.nav-link::before {
   content: "";
   width: 100%;
   height: 3px;
@@ -71,5 +74,6 @@ nav li .nuxt-link-active {
   bottom: 0;
   left: 0;
   border-radius: 4px;
+}
 }
 </style>

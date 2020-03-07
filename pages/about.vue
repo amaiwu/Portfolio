@@ -3,7 +3,7 @@
     <ImageModal :image="image" :small="true" />
     <div class="container pt-5">
       <div class="row justify-content-between align-items-center">
-        <section class="col-md-5">
+        <section class="col-lg-5">
           <p>
             I'm Chiamaka, a User Experience Designer and Frontend Developer
             based in Toronto, Canada.
@@ -22,20 +22,26 @@
             to bridge the gap between design and software development.
           </p>
         </section>
-        <figure class="col-md-6">
-          <img src="https://res.cloudinary.com/drsp4xifi/image/upload/w_540/q_auto/v1583527434/my_pic_kkehwy.png" alt="" class="img-fluid" />
+        <figure class="col-lg-6">
+          <img
+            src="https://res.cloudinary.com/drsp4xifi/image/upload/w_540/q_auto/v1583527434/my_pic_kkehwy.png"
+            alt=""
+            class="img-fluid w-100"
+          />
           <figcaption
             class="mt-3"
             style="    text-align: center;
     font-size: 16px;"
           >
-            <em style="color: #47546f; font-size: 14px">That's me with the peace sign and the Spacefinder team</em>
+            <em style="color: #47546f; font-size: 14px"
+              >That's me with the peace sign and the Spacefinder team</em
+            >
           </figcaption>
         </figure>
       </div>
       <h3 class="mt-4">Skills</h3>
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-4 col-lg-2">
           <h4>Design</h4>
           <ul>
             <li>Prototyping</li>
@@ -44,7 +50,7 @@
             <li>Storyboarding</li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4 col-lg-2">
           <h4>Research</h4>
           <ul>
             <li>
@@ -61,7 +67,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4 col-lg-2">
           <h4>Design Tools</h4>
           <ul>
             <li>
@@ -75,7 +81,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4 col-lg-2">
           <h4>Programming</h4>
           <ul>
             <li>
@@ -109,6 +115,9 @@
 import ImageModal from "~/components/modal";
 export default {
   layout: "main",
+  head: {
+    title: "About me"
+  },
   data() {
     return {
       image: {
@@ -154,11 +163,10 @@ h4 {
 }
 
 a {
-    font-family: "Merriweather", serif;
-    font-size: 16px;
-    line-height: 150%;
-    color: #204db2;
-    text-decoration: underline;
-
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #204db2;
+  text-decoration: underline;
 }
 </style>

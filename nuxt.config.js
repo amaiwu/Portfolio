@@ -24,7 +24,7 @@ export default {
         href:
           "https://fonts.googleapis.com/css?family=Merriweather|Oswald:200,300,400,500,600,700&display=swap"
       },
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+      { rel: "icon", type: "image/x-icon", href: "/logo.png" }
     ],
     script: [
       {
@@ -54,7 +54,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{src: "~/plugins/", mode: "client"}],
+  plugins: [{ src: "~/plugins/", mode: "client" }],
   /*
    ** Nuxt.js modules
    */
@@ -62,7 +62,5 @@ export default {
   /*
    ** Build configuration
    */
-  build: {
-  
-  }
+  build: {}
 };

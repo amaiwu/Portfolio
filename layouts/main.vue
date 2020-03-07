@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light d-md-flex justify-content-between px-5 py-3"
+      class="navbar navbar-expand-lg navbar-light bg-light d-md-flex justify-content-between px-lg-5 py-3"
     >
       <nuxt-link to="/" exact class="navbar-brand" href="#"
         ><img src="~/assets/images/CI.svg" alt=""
@@ -57,6 +57,9 @@ nav li .nuxt-link-active {
   position: relative;
   color: #2b2d33 !important;
 }
+
+
+@media (min-width: 992px) {
 .nuxt-link-active.nav-link::before {
   content: "";
   width: 100%;
@@ -68,4 +71,5 @@ nav li .nuxt-link-active {
   border-radius: 4px;
 }
 
+}
 </style>

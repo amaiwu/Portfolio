@@ -475,33 +475,33 @@
             </p>
           </div>
           <div class="col-md-12 pt-4">
-             <figure
+            <figure
               class="d-flex mt-4 mx-auto text-center justify-content-center"
             >
               <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
-              <img
-                src="~/assets/images/Libraries.png"
-                alt=""
-                style="height: 550px"
-                class="mr-5"
-              />
-              <img
-                src="~/assets/images/bookRoom.png"
-                alt=""
-                style="height: 550px"
-                class="mr-5"
-              />
-              <img
-                src="~/assets/images/bookRoom2.png"
-                alt=""
-                style="height: 550px"
-                class="mr-5"
-              />
-              <img
-                src="~/assets/images/booking-confirmed.png"
-                alt=""
-                style="height: 550px"
-              />
+                <img
+                  src="~/assets/images/Libraries.png"
+                  alt=""
+                  style="height: 550px"
+                  class="mr-5"
+                />
+                <img
+                  src="~/assets/images/bookRoom.png"
+                  alt=""
+                  style="height: 550px"
+                  class="mr-5"
+                />
+                <img
+                  src="~/assets/images/bookRoom2.png"
+                  alt=""
+                  style="height: 550px"
+                  class="mr-5"
+                />
+                <img
+                  src="~/assets/images/booking-confirmed.png"
+                  alt=""
+                  style="height: 550px"
+                />
               </div>
             </figure>
           </div>
@@ -523,29 +523,32 @@
               class="d-flex mt-4 mx-auto text-center justify-content-center"
             >
               <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
-            <img
-              src="~/assets/images/map.png"
-              alt=""
-              style="height: 550px"
-              class="mr-5"
-            />
-            <img
-              src="~/assets/images/search-results.png"
-              alt=""
-              style="height: 550px"
-              class="mr-5"
-            />
-            <img
-              src="~/assets/images/search-results2.png"
-              alt=""
-              style="height: 550px"
-              class="mr-5"
-            />
-            <img src="~/assets/images/map 2.png" alt="" style="height: 550px" />
+                <img
+                  src="~/assets/images/map.png"
+                  alt=""
+                  style="height: 550px"
+                  class="mr-5"
+                />
+                <img
+                  src="~/assets/images/search-results.png"
+                  alt=""
+                  style="height: 550px"
+                  class="mr-5"
+                />
+                <img
+                  src="~/assets/images/search-results2.png"
+                  alt=""
+                  style="height: 550px"
+                  class="mr-5"
+                />
+                <img
+                  src="~/assets/images/map 2.png"
+                  alt=""
+                  style="height: 550px"
+                />
               </div>
-          </figure>
+            </figure>
           </div>
-           
         </div>
 
         <div class="row mt-5 justify-content-center pt-5">
@@ -559,60 +562,59 @@
         </div>
         <div class="col-md-12">
           <figure
-              class="d-flex mt-4 mx-auto text-center justify-content-center"
-            >
-              <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
-          <img
-            src="~/assets/images/Libraries.png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/Live-reports.png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/Live-reports 2.png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/Make a report .png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/Select building.png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/Select crowdedness.png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/How recent.png"
-            alt=""
-            style="height: 550px"
-            class="mr-5"
-          />
-          <img
-            src="~/assets/images/Congrats page.png"
-            alt=""
-            style="height: 550px"
-          />
-              </div>
-        </figure>
+            class="d-flex mt-4 mx-auto text-center justify-content-center"
+          >
+            <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
+              <img
+                src="~/assets/images/Libraries.png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/Live-reports.png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/Live-reports 2.png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/Make a report .png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/Select building.png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/Select crowdedness.png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/How recent.png"
+                alt=""
+                style="height: 550px"
+                class="mr-5"
+              />
+              <img
+                src="~/assets/images/Congrats page.png"
+                alt=""
+                style="height: 550px"
+              />
+            </div>
+          </figure>
         </div>
-        
       </div>
     </section>
     <section
@@ -715,8 +717,9 @@
             usability issues.
           </li>
           <li>
-            I also learned the importance of documentation especially when working in
-            a team, to ensure all team members are always in alignment.
+            I also learned the importance of documentation especially when
+            working in a team, to ensure all team members are always in
+            alignment.
           </li>
         </ul>
         <div class="d-flex justify-content-between mt-5 pt-4">
@@ -744,18 +747,23 @@
 import Carousel from "~/components/carousel";
 import Navbar from "~/components/case";
 export default {
+  head: {
+    title: "Spacefinder - UX Case Study"
+  },
   data() {
     return {
       sections: [],
       currentId: "",
       images: [
         {
-          src: "https://res.cloudinary.com/drsp4xifi/image/upload/h_580/q_auto/v1583528253/ideas_wwwskv.png",
+          src:
+            "https://res.cloudinary.com/drsp4xifi/image/upload/h_580/q_auto/v1583528253/ideas_wwwskv.png",
           alt: "ideas",
           caption: "Ideation phase of the spacefinder project"
         },
         {
-          src: "https://res.cloudinary.com/drsp4xifi/image/upload/h_580/q_auto/v1583528513/20191023_124806_k3snpp.jpg",
+          src:
+            "https://res.cloudinary.com/drsp4xifi/image/upload/h_580/q_auto/v1583528513/20191023_124806_k3snpp.jpg",
           alt: "identifying needs",
           caption: "Identifying Selena's needs"
         }
@@ -812,12 +820,11 @@ export default {
     }
   },
   // created() {
-    
+
   // },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
     this.sections = this.$refs.main.querySelectorAll("section");
-    
   },
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
@@ -1033,23 +1040,23 @@ aside.invisible {
   }
 }
 @media (min-width: 1200px) {
- #main {
-  background-image: url("~assets/images/spacefinder-big.png");
-  background-repeat: no-repeat;
-  background-position: -25vw;
-  background-size: 60%;
-}
+  #main {
+    background-image: url("~assets/images/spacefinder-big.png");
+    background-repeat: no-repeat;
+    background-position: -25vw;
+    background-size: 60%;
+  }
 }
 
 @media (max-width: 600px) {
- #main h1.main-text {
-  font-size: 40px;
-  line-height: 120%;
-}
+  #main h1.main-text {
+    font-size: 40px;
+    line-height: 120%;
+  }
 
- #main p {
-font-size: 20px;
-line-height: 180%;
- }
+  #main p {
+    font-size: 20px;
+    line-height: 180%;
+  }
 }
 </style>

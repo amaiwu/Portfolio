@@ -1,14 +1,25 @@
 body {
-    font-family: 'Merriweather', sans-serif;
-    color: #2B2D33;
-    font-size: 20px;
-    background: white
+  font-family: "Merriweather", sans-serif;
+  color: #2b2d33;
+  font-size: 20px;
+  background: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    /* color: #2B2D33; */
-    /* letter-spacing:0.4px; */
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  /* color: #2B2D33; */
+  /* letter-spacing:0.4px; */
+  margin-bottom: 15px;
 }
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+

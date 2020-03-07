@@ -640,6 +640,9 @@
 import NavBar from "~/components/case";
 import ImageModal from "~/components/modal";
 export default {
+  head: {
+    title: "OBHS - UX Case Study"
+  },
   data() {
     return {
       zoom: false,
@@ -909,14 +912,14 @@ h6 {
 }
 
 @media (max-width: 600px) {
- #main h1.main-text {
-  font-size: 40px;
-  line-height: 120%;
-}
+  #main h1.main-text {
+    font-size: 40px;
+    line-height: 120%;
+  }
 
- #main p {
-font-size: 20px;
-line-height: 180%;
- }
+  #main p {
+    font-size: 20px;
+    line-height: 180%;
+  }
 }
 </style>
