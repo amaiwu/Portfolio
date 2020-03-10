@@ -733,7 +733,7 @@
                 Next Project
               </div>
               <div style="font-weight: ; line-height: 1.5em" class="text-left text-md-right">
-                Redesigning the website for a charity organization
+                Redesigning the information architecture of a charity's website
               </div>
             </nuxt-link>
           </div>

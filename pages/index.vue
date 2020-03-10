@@ -59,7 +59,7 @@
           >
             <div class="tags">OBHS • UX Case Study</div>
             <p class="project-title">
-              Redesigning the information architecture of a website
+              Redesigning the information architecture of a charity's website
             </p>
             <nuxt-link to="/ontario-black-history-society" class="project-link"
               >Read</nuxt-link
