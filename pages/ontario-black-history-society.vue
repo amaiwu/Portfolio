@@ -443,9 +443,10 @@
               style="max-width: 100%; overflow-x: scroll"
             >
               <img
+                @click="launchModal({ src: 'Home .png', alt: 'Home Page' })"
                 src="~/assets/images/Home .png"
-                alt=""
-                class="mx-3"
+                alt="Home page"
+                class="mx-3 pb-4"
                 style="height: 550px"
               />
             </figure>
@@ -466,21 +467,36 @@
           style="max-width: 100%; overflow-x: scroll"
         >
           <img
+            @click="
+              launchModal({ src: 'Black History Month .png', alt: 'Home Page' })
+            "
             src="~/assets/images/Black History Month .png"
             alt=""
             style="height: 550px"
-            class="mr-2 ml-3"
+            class="mr-2 ml-3 clickable pb-4"
           />
           <img
+            @click="
+              launchModal({
+                src: 'Black History Month_ Historical Profiles.png',
+                alt: 'Black History Month - Profiles'
+              })
+            "
             src="~/assets/images/Black History Month_ Historical Profiles.png"
-            alt=""
+            alt="Black History Month - Profiles"
             style="height: 550px"
-            class="mr-2"
+            class="mr-2 clickable pb-4"
           />
           <img
+            @click="
+              launchModal({
+                src: 'Black History Month_ Deborah Miller Brown.png',
+                alt: 'Black history month profiles - Deborah Miller Brown'
+              })
+            "
             src="~/assets/images/Black History Month_ Deborah Miller Brown.png"
-            alt=""
-            class="pr-3"
+            alt="Black history month profiles - Deborah Miller Brown"
+            class="pr-3 pb-4"
             style="height: 550px"
           />
         </figure>
@@ -499,21 +515,39 @@
               style="max-width: 100%; overflow-x: scroll"
             >
               <img
+                @click="
+                  launchModal({
+                    src: 'Support Us .png',
+                    alt: 'Support Us Page'
+                  })
+                "
                 src="~/assets/images/Support Us .png"
-                alt=""
+                alt="Support Us Page"
                 style="height: 550px"
-                class="mr-2 ml-3"
+                class="mr-2 ml-3 clickable pb-4"
               />
               <img
+                @click="
+                  launchModal({
+                    src: 'Support Us_ Become a Member .png',
+                    alt: 'Support Us Page - Become a member'
+                  })
+                "
                 src="~/assets/images/Support Us_ Become a Member .png"
-                alt=""
+                alt="Support Us Page - Become a member"
                 style="height: 550px"
-                class="mr-2"
+                class="mr-2 clickable pb-4"
               />
               <img
+                @click="
+                  launchModal({
+                    src: 'Support Us_ Become a Member Confirmation.png',
+                    alt: 'Support Us Page - Become a member Confirmation'
+                  })
+                "
                 src="~/assets/images/Support Us_ Become a Member Confirmation.png"
-                alt=""
-                class="pr-3"
+                alt="Support Us Page - Become a member Confirmation"
+                class="pr-3 clickable pb-4"
                 style="height: 550px"
               />
             </figure>
@@ -537,29 +571,54 @@
             >
               <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
                 <img
+                  @click="
+                    launchModal({
+                      src: 'Support Us_ Shop .png',
+                      alt: 'Support Us Page - Shop'
+                    })
+                  "
                   src="~/assets/images/Support Us_ Shop .png"
-                  alt=""
+                  alt="Support Us Page - Shop"
                   style="height: 550px"
-                  class="mr-2 ml-3"
+                  class="ml-3 mr-2 clickable pb-4"
                 />
                 <img
-                  src="~/assets/images/Support Us_ Shop - Posters Purchase Confirmation .png"
-                  alt=""
+                  @click="
+                    launchModal({
+                      src: 'Support Us_ Shop - Posters.png',
+                      alt: 'Support Us Page - Shop Posters'
+                    })
+                  "
+                  src="~/assets/images/Support Us_ Shop - Posters.png"
+                  alt="Support Us Page - Shop Posters"
+                  class="mr-2 clickable pb-4"
                   style="height: 550px"
-                  class="mr-2"
                 />
                 <img
+                  @click="
+                    launchModal({
+                      src: 'Support Us_ Shop - Posters Purchase .png',
+                      alt: 'Support Us Page - Posters purchase'
+                    })
+                  "
                   src="~/assets/images/Support Us_ Shop - Posters Purchase .png"
-                  alt=""
+                  alt="Support Us Page - Posters purchase"
                   style="height: 550px"
-                  class="mr-2"
+                  class="mr-2 clickable pb-4"
                 />
 
                 <img
-                  src="~/assets/images/Support Us_ Shop - Posters.png"
-                  alt=""
-                  class="pr-3"
+                  @click="
+                    launchModal({
+                      src:
+                        'Support Us_ Shop - Posters Purchase Confirmation .png',
+                      alt: 'Support Us Page - Posters purchase confirmation'
+                    })
+                  "
+                  src="~/assets/images/Support Us_ Shop - Posters Purchase Confirmation .png"
+                  alt="Support Us Page - Posters purchase confirmation"
                   style="height: 550px"
+                  class="pr-3 clickable pb-4"
                 />
               </div>
             </figure>
@@ -925,12 +984,12 @@ h6 {
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 5px;
+  width: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #f9f6f6;
+  border-radius: 10px;
+  background-color: #f6f7f933;
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 </style>

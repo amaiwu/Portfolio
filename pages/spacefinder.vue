@@ -478,7 +478,7 @@
             <figure
               class="d-flex mt-4 mx-auto text-center justify-content-center"
             >
-              <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
+              <div class="d-flex pb-4" style="max-width: 100%; overflow-x: scroll">
                 <img
                   src="~/assets/images/Libraries.png"
                   alt=""
@@ -522,7 +522,7 @@
             <figure
               class="d-flex mt-4 mx-auto text-center justify-content-center"
             >
-              <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
+              <div class="d-flex pb-4" style="max-width: 100%; overflow-x: scroll">
                 <img
                   src="~/assets/images/map.png"
                   alt=""
@@ -562,9 +562,9 @@
         </div>
         <div class="col-md-12">
           <figure
-            class="d-flex mt-4 mx-auto text-center justify-content-center pb-4"
+            class="d-flex mt-4 mx-auto text-center justify-content-center"
           >
-            <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
+            <div class="d-flex pb-4" style="max-width: 100%; overflow-x: scroll">
               <img
                 src="~/assets/images/Libraries.png"
                 alt=""
@@ -1062,12 +1062,12 @@ aside.invisible {
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 5px;
+  width: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #f6f7f9;
+  border-radius: 10px;
+  background-color: #f6f7f933;
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 </style>
