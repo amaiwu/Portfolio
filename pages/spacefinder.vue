@@ -152,12 +152,12 @@
           enable students:
         </p>
         <ul class="">
-          <li>have access to all study spaces on campus.</li>
+          <li>Have access to all study spaces on campus.</li>
           <li>
-            find and reserve a study room.
+            Find and reserve a study room.
           </li>
           <li>
-            identify the level of crowdedness of a study area.
+            Identify the level of crowdedness of a study area.
           </li>
         </ul>
       </article>
@@ -170,7 +170,7 @@
         <h2>My Role</h2>
         <ul>
           <li>I carried out user interviews and secondary research.</li>
-          <li>i actively participated in brainstorming sessions.</li>
+          <li>I actively participated in brainstorming sessions.</li>
           <li>
             I collaborated with a teammate to design a medium-fidelity prototype
             using Balsamiq.

@@ -665,14 +665,14 @@
         </p>
         <ul>
           <li>
-            carrying out content audits on a website.
+            Carrying out content audits on websites.
           </li>
           <li>
-            using card sorts to gain insight into how users read and understand
+            Using card sorts to gain insight into how users read and understand
             a website's information architecture.
           </li>
           <li>
-           building sitemaps and IA schematic diagrams.
+           Building sitemaps and IA schematic diagrams.
           </li>
         </ul>
         <div class="d-flex justify-content-between mt-5 pt-4">
