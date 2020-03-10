@@ -483,19 +483,19 @@
                   src="~/assets/images/Libraries.png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/bookRoom.png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/bookRoom2.png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/booking-confirmed.png"
@@ -527,19 +527,19 @@
                   src="~/assets/images/map.png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/search-results.png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/search-results2.png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/map 2.png"
@@ -562,50 +562,50 @@
         </div>
         <div class="col-md-12">
           <figure
-            class="d-flex mt-4 mx-auto text-center justify-content-center"
+            class="d-flex mt-4 mx-auto text-center justify-content-center pb-4"
           >
             <div class="d-flex" style="max-width: 100%; overflow-x: scroll">
               <img
                 src="~/assets/images/Libraries.png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Live-reports.png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Live-reports 2.png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Make a report .png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Select building.png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Select crowdedness.png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/How recent.png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Congrats page.png"
@@ -1058,5 +1058,16 @@ aside.invisible {
     font-size: 20px;
     line-height: 180%;
   }
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #f6f7f9;
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 </style>

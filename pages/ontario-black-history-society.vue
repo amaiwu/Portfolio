@@ -469,13 +469,13 @@
             src="~/assets/images/Black History Month .png"
             alt=""
             style="height: 550px"
-            class="mr-5 ml-3"
+            class="mr-2 ml-3"
           />
           <img
             src="~/assets/images/Black History Month_ Historical Profiles.png"
             alt=""
             style="height: 550px"
-            class="mr-5"
+            class="mr-2"
           />
           <img
             src="~/assets/images/Black History Month_ Deborah Miller Brown.png"
@@ -502,13 +502,13 @@
                 src="~/assets/images/Support Us .png"
                 alt=""
                 style="height: 550px"
-                class="mr-5 ml-3"
+                class="mr-2 ml-3"
               />
               <img
                 src="~/assets/images/Support Us_ Become a Member .png"
                 alt=""
                 style="height: 550px"
-                class="mr-5"
+                class="mr-2"
               />
               <img
                 src="~/assets/images/Support Us_ Become a Member Confirmation.png"
@@ -540,19 +540,19 @@
                   src="~/assets/images/Support Us_ Shop .png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5 ml-3"
+                  class="mr-2 ml-3"
                 />
                 <img
                   src="~/assets/images/Support Us_ Shop - Posters Purchase Confirmation .png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
                 <img
                   src="~/assets/images/Support Us_ Shop - Posters Purchase .png"
                   alt=""
                   style="height: 550px"
-                  class="mr-5"
+                  class="mr-2"
                 />
 
                 <img
@@ -921,5 +921,16 @@ h6 {
     font-size: 20px;
     line-height: 180%;
   }
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #f9f6f6;
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 </style>
