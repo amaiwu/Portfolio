@@ -178,6 +178,14 @@
     >
       <article class="col-md-10 col-lg-7">
         <h3 class="text-center mb-5">The Process</h3>
+        <figure class="text-center">
+         <img
+          src="~/assets/images/the-process-obhs.svg"
+          alt="The process of designing the IA for OBHS"
+          class="mb-5 img-fluid"
+        /> 
+        </figure>
+        
         <h2 class="mb-5">Discovering the Problem</h2>
         <h4>Context Analysis</h4>
         <p class="m-0">

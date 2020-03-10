@@ -216,8 +216,8 @@
       <article class="col-md-7">
         <h3 class="text-center mb-5">The Process</h3>
         <img
-          src="~/assets/images/the-process2.svg"
-          alt="The steps of the process"
+          src="~/assets/images/the-process-spacefinder.svg"
+          alt="The process of making spacefinder"
           class="mb-5 img-fluid"
         />
         <h2 class="my-5">User Research</h2>
