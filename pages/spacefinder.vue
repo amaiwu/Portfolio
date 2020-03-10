@@ -722,17 +722,17 @@
             alignment.
           </li>
         </ul>
-        <div class="d-flex justify-content-between mt-5 pt-4">
+        <div class="row justify-content-between mt-5 pt-4">
           <div class="col-md-5"></div>
           <div class="col-md-5">
             <nuxt-link to="/ontario-black-history-society" class="next">
               <div
                 style="font-size: 16px; line-height: 1.5em; font-weight: 300; font-family: Oswald"
-                class="mb-2 text-right"
+                class="mb-2 text-left text-md-right"
               >
                 Next Project
               </div>
-              <div style="font-weight: ; line-height: 1.5em" class="text-right">
+              <div style="font-weight: ; line-height: 1.5em" class="text-left text-md-right">
                 Redesigning the website for a charity organization
               </div>
             </nuxt-link>
