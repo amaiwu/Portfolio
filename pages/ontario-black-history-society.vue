@@ -188,7 +188,7 @@
       <article class="col-md-10 col-lg-7 mt-5">
         <h4>Content Analysis</h4>
         <p>
-          We began this process
+          We began this process by
           <strong>identifying the document and information formats</strong> on
           the website, which we found to be mostly text content, with a few
           images.
@@ -655,23 +655,24 @@
       <article class="col-md-10 col-lg-7">
         <h2 class="mb-5">Lessons Learned</h2>
         <p>
-          This project introduced me to design thinking and how it can be used
-          to provide user-centric solutions to problems.
+          This project introduced a different dimension to using design
+          thinking, as we had to improve on an existing solution with an
+          existing user base.
         </p>
 
         <p>
-          Some takeaways from the project include:
+          Some skills i learned during the process include:
         </p>
         <ul>
           <li>
-            I learned how to carry out content audits on website.
+            carrying out content audits on website.
           </li>
           <li>
-            I learned how to use card sorts to gain insight into how users read
+            using card sorts to gain insight into how users read
             a website's information architecture.
           </li>
           <li>
-            I also gained skills in building sitemaps and IA schematic diagrams.
+           building sitemaps and IA schematic diagrams.
           </li>
         </ul>
         <div class="d-flex justify-content-between mt-5 pt-4">
@@ -990,6 +991,6 @@ h6 {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #f6f7f933;
-  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 </style>

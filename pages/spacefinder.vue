@@ -702,7 +702,7 @@
         </p>
 
         <p>
-          Some takeaways from the project include:
+          Here are some of my takeaways from the project:
         </p>
         <ul>
           <li>

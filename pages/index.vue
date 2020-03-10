@@ -24,15 +24,12 @@
         >
           SOME PROJECTS I'VE WORKED ON
         </h1>
-        <div
-          class="row justify-content-between mb-5"
-          
-        >
+        <div class="row justify-content-between mb-5">
           <div
-          data-aos="fade-in"
-          data-aos-duration="500"
-          data-aos-easing="ease-in"
-          data-aos-once="true"
+            data-aos="fade-in"
+            data-aos-duration="500"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
             class="col-md-5 d-flex flex-column justify-content-center order-md-0 order-1"
           >
             <div class="tags">Spacefinder • UX Case Study</div>
@@ -52,15 +49,12 @@
             </figure>
           </div>
         </div>
-        <div
-          class="row justify-content-between mb-5"
-          
-        >
+        <div class="row justify-content-between mb-5">
           <div
-          data-aos="fade-in"
-          data-aos-duration="500"
-          data-aos-easing="ease-in"
-          data-aos-once="true"
+            data-aos="fade-in"
+            data-aos-duration="500"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
             class="col-md-5 d-flex flex-column justify-content-center order-md-0 order-1"
           >
             <div class="tags">OBHS • UX Case Study</div>
@@ -127,7 +121,6 @@
         <span>
           Website designed and created by me
         </span>
-        
       </footer>
     </section>
   </main>
@@ -228,9 +221,13 @@ footer {
 }
 
 @media (max-width: 600px) {
- p.main-text {
-  font-size: 24px;
-  line-height: 150%;
-}
+  p.main-text {
+    font-size: 24px;
+    line-height: 150%;
+  }
+
+  .project-title {
+    letter-spacing: unset;
+  }
 }
 </style>
