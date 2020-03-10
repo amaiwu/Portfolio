@@ -665,10 +665,10 @@
         </p>
         <ul>
           <li>
-            carrying out content audits on website.
+            carrying out content audits on a website.
           </li>
           <li>
-            using card sorts to gain insight into how users read
+            using card sorts to gain insight into how users read and understand
             a website's information architecture.
           </li>
           <li>
