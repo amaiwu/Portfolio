@@ -58,7 +58,13 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["vue-scrollto/nuxt"],
+  modules: [
+    "vue-scrollto/nuxt",
+    "@nuxtjs/google-analytics",
+    {
+      id: "UA-160622134-1"
+    }
+  ],
   /*
    ** Build configuration
    */
