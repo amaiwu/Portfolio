@@ -84,11 +84,6 @@ button {
   /* top: -60px;
   left: -40px; */
 }
-h1 {
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 1.2em;
-}
 @media (min-width: 576px) {
   .footer-bg {
     font-size: 130px;
@@ -96,5 +91,10 @@ h1 {
   button {
     width: 200px;
   }
+  h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.2em;
+}
 }
 </style>
