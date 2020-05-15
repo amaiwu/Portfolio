@@ -1,5 +1,5 @@
 export default {
-  mode: "universal",
+  mode: "spa",
   /*
    ** Headers of the page
    */
@@ -18,11 +18,6 @@ export default {
       {
         rel: "stylesheet",
         href: "https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css"
-      },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Merriweather|Oswald:200,300,400,500,600,700&display=swap"
       },
       { rel: "icon", type: "image/x-icon", href: "/logo.png" }
     ],

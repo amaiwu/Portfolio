@@ -1,0 +1,44 @@
+/* FONT FAMILY */
+/* Nunito  */
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraLight.woff') format('woff');
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Light.woff') format('woff');
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: 'Nunito ';
+    src: url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBold.woff') format('woff');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Bold.woff') format('woff');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraBold.woff') format('woff');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Black.woff') format('woff');
+    font-weight: 800;
+  }
+
+/* SF Compact Rounded */
+@font-face {
+    font-family: 'SF Compact Rounded';
+    src: url('../fonts/SF-Compact_Rounded.woff') format('woff');
+    font-weight: 800;
+  }

@@ -1,5 +1,7 @@
 <template>
   <main ref="main">
+      <Navbar previous="yours" :absolute="true" />
+
     <ImageModal :image="image" />
     <aside class="position-fixed d-none d-md-block" style="width: 250px">
       <nav>
@@ -89,7 +91,6 @@
       class="d-flex flex-column position-relative"
       style="z-index: 3"
     >
-      <NavBar />
       <div
         class="d-flex align-items-center justify-content-center"
         style="flex-grow: 1"
@@ -179,13 +180,13 @@
       <article class="col-md-10 col-lg-7">
         <h3 class="text-center mb-5">The Process</h3>
         <figure class="text-center">
-         <img
-          src="~/assets/images/the-process-obhs.svg"
-          alt="The process of designing the IA for OBHS"
-          class="mb-5 img-fluid"
-        /> 
+          <img
+            src="~/assets/images/the-process-obhs.svg"
+            alt="The process of designing the IA for OBHS"
+            class="mb-5 img-fluid"
+          />
         </figure>
-        
+
         <h2 class="mb-5">Discovering the Problem</h2>
         <h4>Context Analysis</h4>
         <p class="m-0">
@@ -680,32 +681,16 @@
             a website's information architecture.
           </li>
           <li>
-           Building sitemaps and IA schematic diagrams.
+            Building sitemaps and IA schematic diagrams.
           </li>
         </ul>
-        <div class="d-flex justify-content-between mt-5 pt-4">
-          <!-- <div class="col-md-5"></div> -->
-          <div class="col-md-5">
-            <nuxt-link to="/spacefinder" class="next">
-              <div
-                style="font-size: 16px; line-height: 1.5em; font-weight: 300; font-family: Oswald"
-                class="mb-2"
-              >
-                Previous Project
-              </div>
-              <div style="font-weight: ; line-height: 1.5em" class="">
-                Creating a better way of finding study spaces
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
       </article>
     </section>
   </main>
 </template>
 
 <script>
-import NavBar from "~/components/case";
+import Navbar from "~/components/case";
 import ImageModal from "~/components/modal";
 export default {
   head: {
@@ -723,7 +708,7 @@ export default {
     };
   },
   components: {
-    NavBar,
+    Navbar,
     ImageModal
   },
   methods: {
@@ -838,7 +823,6 @@ aside span {
   color: #844d4d;
   font-weight: 300;
   font-size: 16px;
-  font-family: "Oswald", sans-serif;
 }
 
 h2 {

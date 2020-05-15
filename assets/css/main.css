@@ -1,8 +1,69 @@
+:root {
+  --pattr-gradient: linear-gradient(
+    180deg,
+    #3f5050 0%,
+    rgba(63, 80, 80, 0.9) 54.69%,
+    #3f5050 95.31%
+  );
+  --yours-gradient: hsl(22 31% 42% / 1);
+  /* --yours-gradient: linear-gradient(
+    180deg,
+    hsl(22, 12%, 28%) 0%,
+    hsla(22, 12%, 28%, 0.9) 54.69%,
+    hsl(22, 12%, 28%) 95.31%
+  ); */
+  --spacefinder-gradient: linear-gradient(
+    180deg,
+    hsl(214, 12%, 28%) 0%,
+    hsla(214, 12%, 28%, 0.9) 54.69%,
+    hsl(214, 12%, 28%) 95.31%
+  );
+  --freelancer-gradient: linear-gradient(
+    180deg,
+    hsl(218, 12%, 28%) 0%,
+    hsla(218, 12%, 28%, 0.9) 54.69%,
+    hsl(218, 12%, 28%) 95.31%
+  );
+}
+
 body {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #2b2d33;
   font-size: 20px;
   background: white;
+  /* scroll-behavior: smooth; */
+}
+
+mark {
+  background: none;
+  padding: 0;
+  font-weight: 600;
+}
+
+a.in-page-link {
+  color: unset;
+  display: inline-block;
+  /* border-bottom: solid 4px; */
+  position: relative;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a.in-page-link::before {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0px;
+  background-color: inherit;
+  height: 4px;
+  width: 101%;
+  transition: bottom ease-out 0.2s
+}
+
+a.in-page-link:hover::before {
+  bottom: -2px;
 }
 
 h1,
@@ -11,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   /* color: #2B2D33; */
   /* letter-spacing:0.4px; */
@@ -22,4 +83,23 @@ h6 {
   border: none;
 }
 
+.tooltip {
+  pointer-events: none;
+}
 
+@keyframes bounce {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-3px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-3px);
+  }
+}

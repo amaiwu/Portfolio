@@ -111,7 +111,7 @@
       class="d-flex flex-column position-relative"
       style="z-index: 100"
     >
-      <Navbar />
+      <Navbar next="ontario-black-history-society" previous="yours" :absolute="true"/>
       <div
         class="d-flex align-items-center justify-content-center large-display"
         style="flex-grow: 1"
@@ -333,7 +333,6 @@
             >
               <p
                 class="m-0 font-weight-bold"
-                style="font-family: Merriweather, sans-serif"
               >
                 "I need to plan my time better"
               </p>
@@ -722,22 +721,6 @@
             alignment.
           </li>
         </ul>
-        <div class="row justify-content-between mt-5 pt-4">
-          <div class="col-md-5"></div>
-          <div class="col-md-5">
-            <nuxt-link to="/ontario-black-history-society" class="next">
-              <div
-                style="font-size: 16px; line-height: 1.5em; font-weight: 300; font-family: Oswald"
-                class="mb-2 text-left text-md-right"
-              >
-                Next Project
-              </div>
-              <div style="font-weight: ; line-height: 1.5em" class="text-left text-md-right">
-                Redesigning the information architecture of a charity's website
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
       </article>
     </section>
   </main>
@@ -877,7 +860,7 @@ img {
 }
 
 nav li .active {
-  font-weight: 600;
+  font-weight: 700;
   transition: all 0.1s ease;
 }
 
@@ -886,7 +869,6 @@ aside span {
   color: #4d5b84;
   font-weight: 300;
   font-size: 16px;
-  font-family: "Oswald", sans-serif;
 }
 
 .user-persona .user,
@@ -903,7 +885,6 @@ aside span {
   line-height: 1.5em;
   font-weight: 400;
   /* font-size: 16px; */
-  font-family: "Oswald", sans-serif;
 }
 
 h2 {

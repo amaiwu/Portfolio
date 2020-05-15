@@ -1,9 +1,10 @@
 <template>
-  <main style="background: #f6f7f9" class="pb-5">
+  <main style="background: #f6f7f9; padding-top: 150px" class="pb-5">
     <ImageModal :image="image" :small="true" />
     <div class="container pt-5">
+      <div class="footer-bg position-fixed" style="top: 73px">ABOUT ME</div>
       <div class="row justify-content-between align-items-center">
-        <section class="col-lg-5">
+        <section class="col-lg-5" style="background: #f6f7f9;">
           <p>
             I'm Chiamaka, a User Experience Designer and Frontend Developer
             based in Toronto, Canada.
@@ -13,13 +14,8 @@
             Degree in User Experience Design.
           </p>
           <p>
-            When I'm not designing, I work as a frontend developer for a
-            software development company, where I majorly focus on bringing UI
-            designs to life using web technologies.
-          </p>
-          <p>
-            With my knowledge of designing and building user experiences, I hope
-            to bridge the gap between design and software development.
+            When I'm not designing, I'm bringing designs to life using web
+            technologies, watching football 🙂, or catching up with friends and family.
           </p>
         </section>
         <figure class="col-lg-6">
@@ -34,7 +30,7 @@
     font-size: 16px;"
           >
             <em style="color: #47546f; font-size: 14px"
-              >That's me with the peace sign and the Spacefinder team</em
+              >The spacefinder team (I'm the one doing the peace sign)</em
             >
           </figcaption>
         </figure>
@@ -163,10 +159,18 @@ h4 {
 }
 
 a {
-  font-family: "Merriweather", serif;
   font-size: 16px;
   line-height: 150%;
   color: #204db2;
   text-decoration: underline;
+}
+
+.footer-bg {
+  font-family: "SF Pro Rounded";
+  font-size: 130px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: bold;
+  color: #a3adc2;
 }
 </style>

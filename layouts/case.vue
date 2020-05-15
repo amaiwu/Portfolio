@@ -2,8 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-flex justify-content-between px-5 pt-3" :style="{color: navColor}">
       <nuxt-link to="/" exact class="navbar-brand" href="#"
-        ><img src="~/assets/images/CI.svg" alt=""
-      /></nuxt-link>
+        >Back to Portfolio</nuxt-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -18,12 +17,12 @@
       <div class="collapse navbar-collapse" style="flex-grow: 0" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item mr-4">
-            <nuxt-link to="/" class="nav-link" href="#"
-              >My Works <span class="sr-only">My works</span></nuxt-link
+            <nuxt-link to="/" exact class="nav-link" href="#"
+              >Home <span class="sr-only">Previous</span></nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link to="/about" class="nav-link" >About me</nuxt-link>
+            <nuxt-link to="/about" exact class="nav-link" >Next</nuxt-link>
           </li>
         </ul>
       </div>
@@ -40,7 +39,6 @@ export default {
 
 <style scoped>
 nav {
-    font-family: 'Oswald', sans-serif;
     background-color: #2b2d33;
     font-size: 16px;
     
