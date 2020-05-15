@@ -36,9 +36,9 @@
     font-weight: 800;
   }
 
-/* SF Compact Rounded */
+/* SF Pro Rounded */
 @font-face {
-    font-family: 'SF Compact Rounded';
-    src: url('../fonts/SF-Compact_Rounded.woff') format('woff');
+    font-family: 'SF Pro Rounded';
+    src: url('../fonts/SF-Pro_Rounded.woff') format('woff');
     font-weight: 800;
   }

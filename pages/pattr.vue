@@ -152,7 +152,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/v1589316124/Group_140_1_xtcg46.webp'/></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/v1589316124/Group_140_1_xtcg46.png'/></div>"
                   class="in-page-link"
                   >John, the first time traveller</a
                 >. This helped me better understand users' needs.
@@ -191,7 +191,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589224187/pattr-ideation_g4vfve.webp' /></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589224187/pattr-ideation_g4vfve.png' /></div>"
                   class="in-page-link"
                   >brainstorm several ideas</a
                 >
@@ -234,7 +234,7 @@
               data-aos-easing="ease-in"
               data-aos-once="true"
             >
-              <!-- https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.webp -->
+              <!-- https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.png -->
               <h2 class="section-title">Sketches & Wireframing</h2>
               <p class="section-content">
                 Next, I created
@@ -244,7 +244,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.webp' /></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.png' /></div>"
                   class="in-page-link"
                   >paper sketches</a
                 >
@@ -256,7 +256,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1400/v1589225352/a2.ChiamakaIwuanyanwu.test_1_r1g1sh.webp' /></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1400/v1589225352/a2.ChiamakaIwuanyanwu.test_1_r1g1sh.png' /></div>"
                   class="in-page-link"
                 >
                   wireframes</a
@@ -315,7 +315,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589228135/a2.ChiamakaIwuanyanwu.ultimate_1__compressed_qpn8mv.webp'/></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589228135/a2.ChiamakaIwuanyanwu.ultimate_1__compressed_qpn8mv.png'/></div>"
                   class="in-page-link"
                   >See storyboard</a
                 >
@@ -329,7 +329,7 @@
                 data-aos-once="true"
               >
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312611/Group_131_2_dg2r3l.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312611/Group_131_2_dg2r3l.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -349,7 +349,7 @@
                 data-aos-once="true"
               >
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312160/Group_133_l9f0rl.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312160/Group_133_l9f0rl.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -395,7 +395,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589231078/a2.ChiamakaIwuanyanwu.ultimate_1_pxc0oh_ieakl2.webp'/></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589231078/a2.ChiamakaIwuanyanwu.ultimate_1_pxc0oh_ieakl2.png'/></div>"
                   class="in-page-link"
                   >See storyboard to answer a question</a
                 >
@@ -431,7 +431,7 @@
                 data-aos-once="true"
               >
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312161/Group_139_ogub3v.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312161/Group_139_ogub3v.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -451,7 +451,7 @@
                 data-aos-once="true"
               >
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312162/Group_137_w53gfs.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312162/Group_137_w53gfs.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -482,7 +482,7 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589230179/a2.ChiamakaIwuanyanwu.ultimate_1_lid1pr_vudszi.webp'/></div>"
+                  title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589230179/a2.ChiamakaIwuanyanwu.ultimate_1_lid1pr_vudszi.png'/></div>"
                   class="in-page-link"
                   >See storyboard</a
                 >
@@ -502,7 +502,7 @@
         <article class="py-5 mb-5 ">
           <h2
             class="section-bg-title"
-            style="font-family: SF Compact Rounded; color: #3f5050;"
+            style="font-family: SF Pro Rounded, Nunito, sans-serif; color: #3f5050;"
           >
             COLORS
           </h2>
@@ -536,7 +536,7 @@
             <article class="section">
               <h2
                 class="section-bg-title"
-                style="font-family: SF Compact Rounded; color: #3f5050;"
+                style="font-family: SF Pro Rounded, Nunito, sans-serif; color: #3f5050;"
               >
                 FONTS
               </h2>
@@ -602,17 +602,17 @@ export default {
     return {
       link: "",
       wireframe:
-        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589225352/a2.ChiamakaIwuanyanwu.test_1_r1g1sh.webp",
+        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589225352/a2.ChiamakaIwuanyanwu.test_1_r1g1sh.png",
       askAQuestion:
-        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589227646/a2.ChiamakaIwuanyanwu.ultimate_1_vuz0jx_qhynqs.webp",
+        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589227646/a2.ChiamakaIwuanyanwu.ultimate_1_vuz0jx_qhynqs.png",
       tellAStory:
-        "https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_6298/v1589313129/a2.ChiamakaIwuanyanwu.ultimate_1__compressed_qpn8mv_pmg6bn.webp",
+        "https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_6298/v1589313129/a2.ChiamakaIwuanyanwu.ultimate_1__compressed_qpn8mv_pmg6bn.png",
       experienceAPlace:
-        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589230179/a2.ChiamakaIwuanyanwu.ultimate_1_lid1pr_vudszi.webp",
+        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589230179/a2.ChiamakaIwuanyanwu.ultimate_1_lid1pr_vudszi.png",
       answerAQuestion:
-        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589231078/a2.ChiamakaIwuanyanwu.ultimate_1_pxc0oh_ieakl2.webp",
+        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589231078/a2.ChiamakaIwuanyanwu.ultimate_1_pxc0oh_ieakl2.png",
       sketches:
-        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.webp",
+        "https://res.cloudinary.com/drsp4xifi/image/upload/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.png",
       colorPalette: [
         { name: "Black", bg: "#001410", fg: "#fff" },
         { name: "Grey", bg: "#4E5654", fg: "#fff" },
@@ -706,7 +706,7 @@ header {
   min-height: 100vh;
 }
 .header-wrapper {
-  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589229026/Scene_1_emqhnp.webp");
+  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589229026/Scene_1_emqhnp.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -775,7 +775,7 @@ header {
 }
 
 .section-bg-title {
-  font-family: "SF Compact Rounded", sans-serif;
+  font-family: "SF Pro Rounded","Nunito", sans-serif;
   color: #647777;
   font-size: 60px;
   font-weight: bold;

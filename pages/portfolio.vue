@@ -1,9 +1,6 @@
 <template>
   <main class="container-fluid">
-    <section
-      class="container d-flex flex-column justify-content-between h-100"
-      
-    >
+    <section class="container d-flex flex-column justify-content-between h-100">
       <div class="footer-bg position-fixed" style="top: 73px">PORTFOLIO</div>
 
       <div class="row">
@@ -16,7 +13,7 @@
             <div class="card pattr-gradient p-4 h-100 pattr">
               <figure>
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589229026/Scene_1_emqhnp.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589229026/Scene_1_emqhnp.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -45,7 +42,7 @@
             <div class="card pattr-gradient p-4 h-100 yours">
               <figure>
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -75,7 +72,7 @@
             <div class="card spacefinder pattr-gradient p-4 h-100">
               <figure class="pattr-gradient">
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1176/v1589498857/Scene_4_k6gixe.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1176/v1589498857/Scene_4_k6gixe.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -105,7 +102,7 @@
             <div class="card freelancer pattr-gradient p-4 h-100">
               <figure class="pattr-gradient">
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/v1589504476/Frame_2_mu1gte.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/v1589504476/Frame_2_mu1gte.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -136,7 +133,7 @@
             <div class="card freelancer pattr-gradient p-4 h-100 disabled">
               <figure class="pattr-gradient">
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/v1589501255/Group_230_aczmra.webp"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/v1589501255/Group_230_aczmra.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -306,7 +303,7 @@ figure {
 }
 
 .footer-bg {
-  font-family: "SF Pro Rounded";
+  font-family: "SF Pro Rounded", "Nunito", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -323,11 +320,12 @@ figure {
   /* color: white; */
 }
 .container {
-   padding-top: 100px
-  }
+  padding-top: 100px;
+}
 @media (min-width: 576px) {
   .footer-bg {
-    font-family: "SF Pro Rounded";
+    font-family: "SF Pro Rounded", "Nunito", sans-serif;
+
     font-size: 130px;
     text-transform: uppercase;
     white-space: nowrap;
@@ -335,7 +333,7 @@ figure {
     color: #a3adc2;
   }
   .container {
-   padding-top: 200px
+    padding-top: 200px;
   }
 }
 </style>

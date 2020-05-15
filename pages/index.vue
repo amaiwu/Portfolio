@@ -51,8 +51,7 @@ main {
 
 h1 {
   font-weight: bold;
-  font-size: 50px;
-  line-height: 1.2em;
+  font-size: 20px;
 }
 
 footer {
@@ -73,7 +72,8 @@ button {
 }
 
 .footer-bg {
-  font-family: "SF Pro Rounded";
+    font-family: "SF Pro Rounded", "Nunito", sans-serif;
+
   font-size: 40px;
   text-transform: uppercase;
   /* text-align: center; */
@@ -83,6 +83,11 @@ button {
   /* position: absolute; */
   /* top: -60px;
   left: -40px; */
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.2em;
 }
 @media (min-width: 576px) {
   .footer-bg {

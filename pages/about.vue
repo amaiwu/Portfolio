@@ -167,7 +167,7 @@ a {
 }
 
 .footer-bg {
-  font-family: "SF Pro Rounded";
+  font-family: "SF Pro Rounded", "Nunito", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -180,7 +180,8 @@ main {
   }
 @media (min-width: 576px) {
   .footer-bg {
-    font-family: "SF Pro Rounded";
+      font-family: "SF Pro Rounded", "Nunito", sans-serif;
+
     font-size: 130px;
     text-transform: uppercase;
     white-space: nowrap;

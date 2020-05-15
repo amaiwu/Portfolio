@@ -279,7 +279,7 @@ a.in-page-link {
   background-color: hsl(22, 16%, 63%);
 } */
 .header-wrapper {
-  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.webp");
+  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -337,7 +337,7 @@ header {
 }
 
 .section-bg-title {
-  font-family: "SF Compact Rounded", sans-serif;
+  font-family: "SF Pro Rounded", "Nunito", sans-serif;
   color: #647777;
   font-size: 40px;
   font-weight: bold;
