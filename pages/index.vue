@@ -25,7 +25,7 @@
       </section>
       <footer class="text-center my-5 pt-5">
         <span>
-          Website designed and created by me
+          Website designed and built by me :-)
         </span>
       </footer>
     </section>
