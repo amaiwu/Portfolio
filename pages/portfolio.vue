@@ -23,7 +23,7 @@
                   <span style="color:#E57738">PATTR</span>
                 </p>
                 <p class="project-description">
-                  Teaching earth through experiences
+                  Fostering connectedness with our environment
                 </p>
                 <div class="tags">
                   <span class="tag">UX/UI Design</span>

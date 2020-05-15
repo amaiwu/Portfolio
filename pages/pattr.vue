@@ -22,7 +22,7 @@
             <div class="col-md-9">
               <h2 class="header-title">PATTR • UI/UX DESIGN</h2>
               <h1 class="header-subtitle">
-                Teaching earth through experiences
+                Fostering connectedness with our environment
               </h1>
               <p class="header-caption">1 week • Individual Project</p>
               <a
