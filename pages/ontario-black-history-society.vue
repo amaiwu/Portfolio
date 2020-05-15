@@ -1,6 +1,6 @@
 <template>
   <main ref="main">
-      <Navbar previous="yours" :absolute="true" />
+      <Navbar previous="spacefinder" :absolute="true" />
 
     <ImageModal :image="image" />
     <aside class="position-fixed d-none d-md-block" style="width: 250px">
