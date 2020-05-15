@@ -84,15 +84,9 @@ button {
   /* top: -60px;
   left: -40px; */
 }
-.container {
-  padding-top: 100px;
-}
 @media (min-width: 576px) {
   .footer-bg {
     font-size: 130px;
-  }
-  .container {
-    padding-top: 200px;
   }
   button {
     width: 200px;
