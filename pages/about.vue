@@ -31,7 +31,7 @@
     font-size: 16px;"
           >
             <em style="color: #47546f; font-size: 14px"
-              >The spacefinder team (I'm the one doing the peace sign)</em
+              >The spacefinder team and me (doing the peace sign)</em
             >
           </figcaption>
         </figure>
