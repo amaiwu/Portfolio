@@ -37,7 +37,7 @@ export default {
   // layout: "main",
   head: {
     title: "Chiamaka's Portfolio"
-  },
+  }
 };
 </script>
 
@@ -64,16 +64,17 @@ button {
   background: transparent;
   color: #f6f7f9;
   border-radius: 4px;
-  width: 200px;
   font-size: 20px;
   font-weight: 700;
+    width: 150px;
+
   border: solid 3px #f6f7f9;
   padding: 5px 10px;
 }
 
 .footer-bg {
   font-family: "SF Pro Rounded";
-  font-size: 130px;
+  font-size: 40px;
   text-transform: uppercase;
   /* text-align: center; */
   white-space: nowrap;
@@ -83,14 +84,18 @@ button {
   /* top: -60px;
   left: -40px; */
 }
-@media (max-width: 600px) {
-  p.main-text {
-    font-size: 24px;
-    line-height: 150%;
+.container {
+  padding-top: 100px;
+}
+@media (min-width: 576px) {
+  .footer-bg {
+    font-size: 130px;
   }
-
-  .project-title {
-    letter-spacing: unset;
+  .container {
+    padding-top: 200px;
+  }
+  button {
+    width: 200px;
   }
 }
 </style>

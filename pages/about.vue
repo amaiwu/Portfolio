@@ -1,5 +1,5 @@
 <template>
-  <main style="background: #f6f7f9; padding-top: 150px" class="pb-5">
+  <main style="background: #f6f7f9;" class="pb-5">
     <ImageModal :image="image" :small="true" />
     <div class="container pt-5">
       <div class="footer-bg position-fixed" style="top: 73px">ABOUT ME</div>
@@ -15,7 +15,8 @@
           </p>
           <p>
             When I'm not designing, I'm bringing designs to life using web
-            technologies, watching football 🙂, or catching up with friends and family.
+            technologies, watching football 🙂, or catching up with friends and
+            family.
           </p>
         </section>
         <figure class="col-lg-6">
@@ -167,10 +168,27 @@ a {
 
 .footer-bg {
   font-family: "SF Pro Rounded";
-  font-size: 130px;
+  font-size: 40px;
   text-transform: uppercase;
   white-space: nowrap;
   font-weight: bold;
   color: #a3adc2;
+}
+
+main {
+    padding-top: 50px;
+  }
+@media (min-width: 576px) {
+  .footer-bg {
+    font-family: "SF Pro Rounded";
+    font-size: 130px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #a3adc2;
+  }
+  main {
+    padding-top: 150px;
+  }
 }
 </style>

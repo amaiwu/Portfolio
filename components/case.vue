@@ -11,29 +11,18 @@
         href="#"
         >Back to portfolio</nuxt-link
       >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" style="flex-grow: 0" id="navbarNav">
-        <ul class="navbar-nav">
+      <div style="flex-grow: 0" id="navbarNav">
+        <ul class="navbar-nav flex-row">
           <li class="nav-item mr-4" v-if="previous">
             <nuxt-link :to="previous" class="nav-link" href="#">
               <span class="icon down-arrow left"></span>
-              <span class="pr-2">Previous</span>
+              <span class="pr-2 d-none d-md-inline" >Previous</span>
               <span class="sr-only">Previous</span></nuxt-link
             >
           </li>
           <li class="nav-item" v-if="next">
             <nuxt-link :to="next" class="nav-link">
-              <span class="pl-2">Next</span>
+              <span class="pl-2 d-none d-md-inline">Next</span>
               <span class="icon down-arrow right"></span>
             </nuxt-link>
           </li>
@@ -53,6 +42,7 @@ export default {
 nav {
   background-color: #2b2d33;
   font-size: 16px;
+  z-index: 1000
 }
 
 .bg-light {

@@ -2,12 +2,12 @@
   <main class="container-fluid">
     <section
       class="container d-flex flex-column justify-content-between h-100"
-      style="padding-top: 200px"
+      
     >
       <div class="footer-bg position-fixed" style="top: 73px">PORTFOLIO</div>
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4">
           <nuxt-link
             to="/pattr"
             class="d-block h-100"
@@ -36,7 +36,7 @@
             </div>
           </nuxt-link>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4">
           <nuxt-link
             to="/yours"
             class="d-block h-100 pb-4"
@@ -66,7 +66,7 @@
             </div>
           </nuxt-link>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4">
           <nuxt-link
             to="/spacefinder"
             class="d-block h-100 pb-4"
@@ -96,7 +96,7 @@
             </div>
           </nuxt-link>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4">
           <nuxt-link
             to="/ontario-black-history-society"
             class="d-block h-100 pb-4"
@@ -126,7 +126,7 @@
             </div>
           </nuxt-link>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4">
           <a
             href="#!"
             to="/ontario-black-history-society"
@@ -222,7 +222,8 @@ button {
   margin-bottom: 20px;
   transition: all 0.2s ease-in-out;
 }
-.card.disabled, a.coming-soon {
+.card.disabled,
+a.coming-soon {
   position: relative;
   pointer-events: none;
   cursor: default;
@@ -244,17 +245,16 @@ a.coming-soon {
 }
 
 a.coming-soon:before {
-    content: "coming soon 🙂";
-    position: absolute;
-    bottom: 170px;
-    background: #2b2d33;
-    border-radius: 20px 0 0 20px;
-    right: 0;
-    font-size: 16px;
-    color: white;
-    z-index: 20;
-    padding: 5px 10px ;
-
+  content: "coming soon 🙂";
+  position: absolute;
+  bottom: 170px;
+  background: #2b2d33;
+  border-radius: 20px 0 0 20px;
+  right: 0;
+  font-size: 16px;
+  color: white;
+  z-index: 20;
+  padding: 5px 10px;
 }
 .card:hover {
   box-shadow: 0px 2px 10px #e4e4e4;
@@ -307,7 +307,7 @@ figure {
 
 .footer-bg {
   font-family: "SF Pro Rounded";
-  font-size: 130px;
+  font-size: 40px;
   text-transform: uppercase;
   white-space: nowrap;
   font-weight: bold;
@@ -322,14 +322,20 @@ figure {
   background: #eb9e75;
   /* color: white; */
 }
-@media (max-width: 600px) {
-  p.main-text {
-    font-size: 24px;
-    line-height: 150%;
+.container {
+   padding-top: 100px
   }
-
-  .project-title {
-    letter-spacing: unset;
+@media (min-width: 576px) {
+  .footer-bg {
+    font-family: "SF Pro Rounded";
+    font-size: 130px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #a3adc2;
+  }
+  .container {
+   padding-top: 200px
   }
 }
 </style>

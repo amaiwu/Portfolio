@@ -339,7 +339,7 @@ header {
 .section-bg-title {
   font-family: "SF Compact Rounded", sans-serif;
   color: #647777;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 88.9%;
 }

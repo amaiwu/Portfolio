@@ -45,6 +45,8 @@ nav {
   font-size: 16px;
   position: sticky;
   top: 0;
+  z-index: 1000
+
 }
 
 .bg-light {
