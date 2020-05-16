@@ -106,35 +106,47 @@
         </li>
       </nav>
     </aside>
-    <section
-      id="main"
-      class="d-flex flex-column position-relative"
-      style="z-index: 100"
-    >
-      <Navbar next="ontario-black-history-society" previous="yours" :absolute="true"/>
+    <section id="main" class="position-relative" style="z-index: 100">
       <div
-        class="d-flex align-items-center justify-content-center large-display"
-        style="flex-grow: 1"
+        class="main-wrapper d-flex flex-column"
+        data-aos="fade-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-back"
+        data-aos-once="true"
       >
-        <article class="text-center col-md-5">
-          <h1 class="mb-4 main-text">
-            Spacefinder
-          </h1>
-          <p>
-            Students have a hard time finding study spaces especially during
-            mid-term and exam periods when study spaces get filled.
-          </p>
-          <p class="mb-5 pb-3">
-            To address this issue, I collaborated with 4 UX designers to create
-            spacefinder — a mobile app for finding study spaces.
-          </p>
-          <div class="d-flex align-items-center justify-content-center">
-            <a href="#our-goal" v-scroll-to="'#our-goal'"
-              >Here's how we did it</a
-            >
-            <span class="ml-1 icon down-arrow"></span>
-          </div>
-        </article>
+        <Navbar
+          next="ontario-black-history-society"
+          previous="yours"
+          :absolute="true"
+        />
+        <div
+          class="d-flex align-items-center justify-content-center large-display"
+          style="flex-grow: 1"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-back"
+          data-aos-once="true"
+        >
+          <article class="text-center col-md-5">
+            <h1 class="mb-4 main-text">
+              Spacefinder
+            </h1>
+            <p>
+              Students have a hard time finding study spaces especially during
+              mid-term and exam periods when study spaces get filled.
+            </p>
+            <p class="mb-5 pb-3">
+              To address this issue, I collaborated with 4 UX designers to
+              create spacefinder — a mobile app for finding study spaces.
+            </p>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="#our-goal" v-scroll-to="'#our-goal'"
+                >Here's how we did it</a
+              >
+              <span class="ml-1 icon down-arrow"></span>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
     <section
@@ -331,9 +343,7 @@
             <div
               class="user card-shadow d-flex flex-column align-items-center text-center py-4 px-5 mb-4 h-100"
             >
-              <p
-                class="m-0 font-weight-bold"
-              >
+              <p class="m-0 font-weight-bold">
                 "I need to plan my time better"
               </p>
               <img
@@ -477,7 +487,10 @@
             <figure
               class="d-flex mt-4 mx-auto text-center justify-content-center"
             >
-              <div class="d-flex pb-4" style="max-width: 100%; overflow-x: scroll">
+              <div
+                class="d-flex pb-4"
+                style="max-width: 100%; overflow-x: scroll"
+              >
                 <img
                   src="~/assets/images/Libraries.png"
                   alt=""
@@ -521,7 +534,10 @@
             <figure
               class="d-flex mt-4 mx-auto text-center justify-content-center"
             >
-              <div class="d-flex pb-4" style="max-width: 100%; overflow-x: scroll">
+              <div
+                class="d-flex pb-4"
+                style="max-width: 100%; overflow-x: scroll"
+              >
                 <img
                   src="~/assets/images/map.png"
                   alt=""
@@ -563,7 +579,10 @@
           <figure
             class="d-flex mt-4 mx-auto text-center justify-content-center"
           >
-            <div class="d-flex pb-4" style="max-width: 100%; overflow-x: scroll">
+            <div
+              class="d-flex pb-4"
+              style="max-width: 100%; overflow-x: scroll"
+            >
               <img
                 src="~/assets/images/Libraries.png"
                 alt=""
@@ -819,7 +838,23 @@ export default {
 main {
   line-height: 2em;
 }
-#main,
+#main {
+  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1176/v1589498857/Scene_4_k6gixe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color:hsl(218deg 13% 13%);
+  color: white;
+}
+.main-wrapper {
+  background: linear-gradient(
+    180deg,
+    hsl(225, 12%, 28%) 0%,
+    hsla(225, 12%, 28%, 0.9) 54.69%,
+    hsl(225, 57%, 20%) 95.31%
+  );
+  height: 100%;
+}
 #app-features {
   background-color: #2b2d33;
   min-height: 100vh;
@@ -1021,12 +1056,12 @@ aside.invisible {
   }
 }
 @media (min-width: 1200px) {
-  #main {
+  /* #main {
     background-image: url("~assets/images/spacefinder-big.png");
     background-repeat: no-repeat;
     background-position: -25vw;
     background-size: 60%;
-  }
+  } */
 }
 
 @media (max-width: 600px) {
@@ -1049,6 +1084,6 @@ aside.invisible {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #f6f7f933;
-  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 </style>

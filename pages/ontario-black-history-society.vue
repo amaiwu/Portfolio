@@ -1,6 +1,6 @@
 <template>
   <main ref="main">
-      <Navbar previous="spacefinder" :absolute="true" />
+    <Navbar previous="spacefinder" :absolute="true" />
 
     <ImageModal :image="image" />
     <aside class="position-fixed d-none d-md-block" style="width: 250px">
@@ -86,32 +86,42 @@
         </li>
       </nav>
     </aside>
-    <section
-      id="main"
-      class="d-flex flex-column position-relative"
-      style="z-index: 3"
-    >
+    <section id="main" class="position-relative" style="z-index: 3">
       <div
-        class="d-flex align-items-center justify-content-center"
-        style="flex-grow: 1"
+        class="main-wrapper d-flex flex-column"
+        data-aos="fade-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-back"
+        data-aos-once="true"
       >
-        <article class="text-center col-lg-8 col-xl-5 col-md-10">
-          <h1 class="mb-4 main-text">
-            Ontario Black History Society
-          </h1>
-          <p>
-            OBHS is a registered Canadian charity that aims to study, preserve
-            and promote the knowledge of Black History in Canada.
-          </p>
-          <p class="mb-5 pb-3">
-            I worked with a team of UX designers to redesign the information
-            architecture of their website.
-          </p>
-          <div class="d-flex align-items-center justify-content-center">
-            <a href="#our-goal" v-scroll-to="'#our-goal'">See how we did it</a>
-            <span class="ml-1 icon down-arrow"></span>
-          </div>
-        </article>
+        <div
+          class="d-flex align-items-center justify-content-center"
+          style="flex-grow: 1"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-back"
+          data-aos-once="true"
+        >
+          <article class="text-center col-lg-8 col-xl-5 col-md-10">
+            <h1 class="mb-4 main-text">
+              Ontario Black History Society
+            </h1>
+            <p>
+              OBHS is a registered Canadian charity that aims to study, preserve
+              and promote the knowledge of Black History in Canada.
+            </p>
+            <p class="mb-5 pb-3">
+              I worked with a team of UX designers to redesign the information
+              architecture of their website.
+            </p>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="#our-goal" v-scroll-to="'#our-goal'"
+                >See how we did it</a
+              >
+              <span class="ml-1 icon down-arrow"></span>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
     <section
@@ -774,7 +784,26 @@ export default {
 main {
   line-height: 2em;
 }
-#main,
+
+#main {
+  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/v1589504476/Frame_2_mu1gte.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: #332b2b;
+  color: white;
+}
+
+.main-wrapper {
+  background: linear-gradient(
+    180deg,
+    hsl(0, 12%, 28%) 0%,
+    hsla(0, 12%, 28%, 0.9) 54.69%,
+    hsl(0, 57%, 20%) 95.31%
+  );
+  height: 100%;
+}
+
 #prototyping {
   background: #332b2b;
   min-height: 100vh;
@@ -952,15 +981,6 @@ h6 {
   cursor: zoom-out;
   z-index: 900;
   position: absolute;
-}
-
-@media (min-width: 1200px) {
-  #main {
-    background-image: url("~assets/images/obhs.png");
-    background-repeat: no-repeat;
-    background-position: -35vw;
-    background-size: 70%;
-  }
 }
 
 @media (max-width: 600px) {

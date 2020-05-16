@@ -42,7 +42,7 @@
             <div class="card pattr-gradient p-4 h-100 yours">
               <figure>
                 <img
-                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.png"
+                  src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589593735/Scene_5_sgzrqc.png"
                   alt=""
                   class="img-fluid"
                 />
@@ -292,6 +292,10 @@ img {
 .yours figure,
 .yours img {
   background: var(--yours-gradient);
+}
+.obhs figure,
+.obhs img {
+  background: var(--obhs-gradient);
 }
 .freelancer figure,
 .freelancer img {

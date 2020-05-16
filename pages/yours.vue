@@ -289,10 +289,11 @@ p a.in-page-link::before {
   background-color: hsl(22, 16%, 63%);
 }
 .header-wrapper {
-  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.png");
+  background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589593735/Scene_5_sgzrqc.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-color:hsl(21deg 30% 22%);
   /* margin-top: 100vh; */
 }
 

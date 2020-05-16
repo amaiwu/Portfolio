@@ -758,6 +758,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-color:hsl(180deg 11% 17%);
   /* margin-top: 100vh; */
 }
 
