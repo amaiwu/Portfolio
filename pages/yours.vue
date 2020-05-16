@@ -24,7 +24,7 @@
                 Sharing love through food
               </h1>
               <p class="header-caption">
-                1 week • Individual Project • Presentation
+                UI/UX DESIGN • 2 week duration • Individual Project
               </p>
               <a
                 data-aos="zoom-in"
@@ -158,9 +158,9 @@
               </p>
             </article>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 ">
             <article
-              class="section"
+              class="section mt-5"
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
@@ -214,9 +214,9 @@ export default {
   color: hsl(22, 71%, 7%);
 }
 .yours-tooltip {
-  width: 100% !important;
   border-radius: 4px;
   background-color: #e4d9d3 !important;
+  padding: 5px;
 }
 
 .tooltip.show {

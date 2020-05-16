@@ -20,11 +20,13 @@
             data-aos-once="true"
           >
             <div class="col-md-9">
-              <h2 class="header-title">PATTR • UI/UX DESIGN</h2>
+              <h2 class="header-title">PATTR</h2>
               <h1 class="header-subtitle">
                 Fostering connectedness with our environment
               </h1>
-              <p class="header-caption">1 week • Individual Project</p>
+              <p class="header-caption">
+                UI/UX DESIGN • 2 week duration • Individual Project
+              </p>
               <a
                 data-aos="zoom-in"
                 data-aos-duration="1500"
@@ -244,7 +246,7 @@
                   data-placement="bottom"
                   data-html="true"
                   title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.png' /></div>"
-                  class="in-page-link"
+                  class="in-page-link viewpdf"
                   >paper sketches</a
                 >
                 for each task in the form of storyboards, and then proceeded to
@@ -256,11 +258,14 @@
                   data-placement="bottom"
                   data-html="true"
                   title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1400/v1589225352/a2.ChiamakaIwuanyanwu.test_1_r1g1sh.png' /></div>"
-                  class="in-page-link"
+                  class="in-page-link viewpdf"
                 >
                   wireframes</a
                 >
-                for each task.
+                for each task in Figma, which were converted to
+                <a href="#" class="in-page-link" v-scroll-to="'#pattr-features'"
+                  >high fidelity mockups.</a
+                >
               </p>
             </article>
           </div>
@@ -269,11 +274,16 @@
     </section>
 
     <!-- APP FEATURES -->
-    <div class="dark-gradient">
+    <div class="dark-gradient" id="pattr-features">
       <div class="container">
+        <!-- <article>
+          <p>
+            After conducting heuristics evaluation on the wireframes, I
+            integrated feedback to create high fidelity mockups.
+          </p>
+        </article> -->
         <div
           class="text-center pattr-features"
-          
           data-aos="fade-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in"
@@ -315,7 +325,7 @@
                   data-placement="bottom"
                   data-html="true"
                   title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589228135/a2.ChiamakaIwuanyanwu.ultimate_1__compressed_qpn8mv.png'/></div>"
-                  class="in-page-link"
+                  class="in-page-link viewpdf"
                   >See storyboard</a
                 >
               </article>
@@ -384,7 +394,7 @@
                       askAQuestion +
                       '\'/></div>'
                   "
-                  class="in-page-link mb-4"
+                  class="in-page-link mb-4 viewpdf"
                   >See storyboard to ask a question</a
                 >
                 <a
@@ -399,7 +409,7 @@
                   data-placement="bottom"
                   data-html="true"
                   title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589231078/a2.ChiamakaIwuanyanwu.ultimate_1_pxc0oh_ieakl2.png'/></div>"
-                  class="in-page-link"
+                  class="in-page-link viewpdf"
                   >See storyboard to answer a question</a
                 >
               </article>
@@ -486,7 +496,7 @@
                   data-placement="bottom"
                   data-html="true"
                   title="<div class='pattr-tooltip'><img src='https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589230179/a2.ChiamakaIwuanyanwu.ultimate_1_lid1pr_vudszi.png'/></div>"
-                  class="in-page-link"
+                  class="in-page-link viewpdf"
                   >See storyboard</a
                 >
               </article>
@@ -565,7 +575,8 @@
             >
               <h2 class="section-title">Next Steps</h2>
               <p class="section-content">
-                With more time, I would carry out <mark>usability and heuristics</mark>
+                With more time, I would carry out
+                <mark>usability and heuristics</mark>
                 testing on my solution. I would also explore the idea of
                 integrating social media apps like instagram that deal with
                 sharing memories.
@@ -574,7 +585,7 @@
           </div>
           <div class="col-md-6">
             <article
-              class="section"
+              class="section mt-5"
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
@@ -583,9 +594,10 @@
             >
               <h2 class="section-title">Lessons Learned</h2>
               <p class="section-content">
-                This was my <mark>first mobile app UI design project</mark>. Throughout the process I learned <mark>best
-                practices of designing mobile apps</mark>, and also became familiar
-                with the <mark>iOS design</mark> style guide.
+                This was my <mark>first mobile app UI design project</mark>.
+                Throughout the process I learned
+                <mark>best practices of designing mobile apps</mark>, and also
+                became familiar with the <mark>iOS design</mark> style guide.
               </p>
             </article>
           </div>
@@ -615,6 +627,7 @@ export default {
         "https://res.cloudinary.com/drsp4xifi/image/upload/v1589231078/a2.ChiamakaIwuanyanwu.ultimate_1_pxc0oh_ieakl2.png",
       sketches:
         "https://res.cloudinary.com/drsp4xifi/image/upload/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.png",
+
       colorPalette: [
         { name: "Black", bg: "#001410", fg: "#fff" },
         { name: "Grey", bg: "#4E5654", fg: "#fff" },
@@ -641,6 +654,36 @@ export default {
       this.$nextTick(() => {
         $("#ViewPDF").modal("show");
       });
+    },
+    is_touch_device4() {
+      var prefixes = " -webkit- -moz- -o- -ms- ".split(" ");
+
+      var mq = function(query) {
+        return window.matchMedia(query).matches;
+      };
+
+      if (
+        "ontouchstart" in window ||
+        (window.DocumentTouch && document instanceof DocumentTouch)
+      ) {
+        return true;
+      }
+
+      // include the 'heartz' as a way to have a non matching MQ to help terminate the join
+      // https://git.io/vznFH
+      var query = ["(", prefixes.join("touch-enabled),("), "heartz", ")"].join(
+        ""
+      );
+      return mq(query);
+    }
+  },
+  mounted() {
+    if (this.is_touch_device4) {
+      [...document.querySelectorAll("[data-toggle = 'tooltip']")].forEach(
+        item => {
+          if (item.classList.contains("viewpdf")) item.dataset.toggle = "";
+        }
+      );
     }
   }
 };
@@ -648,8 +691,8 @@ export default {
 
 <style>
 .tooltip-inner {
-  width: 600px !important;
-  max-width: 600px;
+  width: 300px !important;
+  max-width: 300px;
   padding: 0;
 }
 
@@ -669,6 +712,14 @@ export default {
   background: #d3e4e0;
   height: auto;
   width: 100%;
+}
+
+@media (min-width: 769px) {
+  .tooltip-inner {
+    width: 600px !important;
+    max-width: 600px;
+    padding: 0;
+  }
 }
 </style>
 <style scoped>
@@ -751,7 +802,8 @@ header {
 .light-gradient .section-title {
   color: #11624b;
 }
-.light-gradient .section-content, mark {
+.light-gradient .section-content,
+mark {
   color: #051e17;
 }
 
@@ -862,13 +914,13 @@ header {
   background: #cee3de;
 }
 
- .pattr-features {
-    padding: 80px 0 0;
-  }
+.pattr-features {
+  padding: 80px 0 0;
+}
 
-  .container {
-    height: 100%;
-  }
+.container {
+  height: 100%;
+}
 /* MEDIA QUERIES */
 /* --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -900,7 +952,7 @@ header {
   .content-wrapper {
     height: 100vh;
   }
-  
+
   .content-wrapper,
   header {
     min-height: 100vh;
