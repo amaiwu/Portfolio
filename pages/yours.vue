@@ -109,7 +109,7 @@
       >
         <div class="text-center">
           <span
-            class="section-bg-title section-bg-title__light text-right position-relative"
+            class="section-bg-title section-bg-title__dark text-right position-relative"
             >PRESENTATION
           </span>
         </div>
@@ -359,7 +359,7 @@ header {
   color: hsla(22, 70%, 24%, 0.15);
 }
 .section-bg-title__dark {
-  color: rgb(22, 119, 119);
+  color: hsl(25 12% 46% / 1)
 }
 
 .icon.down-arrow {
