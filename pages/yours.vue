@@ -19,7 +19,7 @@
             data-aos-once="true"
           >
             <div class="col-md-6">
-              <h2 class="header-title">YOURS • UI/UX DESIGN</h2>
+              <h2 class="header-title">YOURS</h2>
               <h1 class="header-subtitle">
                 Sharing love through food
               </h1>
@@ -269,6 +269,25 @@ export default {
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0%, #ffffff 100%),
     hsla(22, 46%, 95%, 0.965);
 } */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+section,
+main,
+header,
+span,
+article {
+  font-family: "Nunito", sans-serif;
+}
+main > * {
+    font-weight: 400;
+    font-size: 16px;
+}
 .iframe-wrapper {
   border-radius: 4px;
   /* box-shadow: 0px 0px 31px hsl(22 21% 42% / 1); */
@@ -345,6 +364,9 @@ header {
 .header-title,
 .header-subtitle {
   color: hsl(22, 27%, 85%);
+}
+.header-title {
+  font-size: 18px;
 }
 
 .section-bg-title {
