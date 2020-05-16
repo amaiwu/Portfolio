@@ -1,5 +1,10 @@
 <template>
   <main ref="main">
+    <Navbar
+          next="ontario-black-history-society"
+          previous="yours"
+          :absolute="true"
+        />
     <aside class="position-fixed d-none d-md-block">
       <nav>
         <li
@@ -114,11 +119,7 @@
         data-aos-easing="ease-in-back"
         data-aos-once="true"
       >
-        <Navbar
-          next="ontario-black-history-society"
-          previous="yours"
-          :absolute="true"
-        />
+        
         <div
           class="d-flex align-items-center justify-content-center large-display"
           style="flex-grow: 1"

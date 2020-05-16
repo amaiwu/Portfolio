@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Chiamaka Iwuanyanwu',
+    title: "Chiamaka Iwuanyanwu",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -45,7 +45,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/assets/css/main.css", "~/assets/css/icons.css", "~/assets/css/fonts.css"],
+  css: [
+    "~/assets/css/main.css",
+    "~/assets/css/icons.css",
+    "~/assets/css/fonts.css"
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -54,7 +58,9 @@ export default {
    ** Nuxt.js modules
    */
   modules: ["vue-scrollto/nuxt", "@nuxtjs/google-analytics"],
-
+  generate: {
+    fallback: true
+  },
   googleAnalytics: {
     id: "UA-160622134-1"
   },
