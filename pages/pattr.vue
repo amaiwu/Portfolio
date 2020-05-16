@@ -1,7 +1,7 @@
 <template>
   <main>
     <ViewPDF :link="link" :img="true" :fullWidth="true" />
-    <Navbar next="yours" :absolute="true"/>
+    <Navbar next="yours" :absolute="true" />
     <div class="header-wrapper">
       <header
         class="content-wrapper"
@@ -56,7 +56,7 @@
             data-aos-once="true"
           >
             <span
-              class="section-bg-title section-bg-title__light text-right position-relative"
+              class="section-bg-title section-bg-title__light position-relative"
               >PROJECT<br />
               OVERVIEW</span
             >
@@ -148,7 +148,6 @@
                 my assumptions,
                 <a
                   href="#!"
-                  
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
@@ -169,7 +168,7 @@
         <div class="row h-100 align-items-center">
           <div class="col-md-6">
             <span
-              class="section-bg-title section-bg-title__light text-right position-relative"
+              class="section-bg-title section-bg-title__light position-relative"
               >THE<br />
               PROCESS</span
             >
@@ -273,8 +272,8 @@
     <div class="dark-gradient">
       <div class="container">
         <div
-          class="text-center"
-          style="padding: 120px 0;"
+          class="text-center pattr-features"
+          
           data-aos="fade-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in"
@@ -380,7 +379,11 @@
                   data-toggle="tooltip"
                   data-placement="bottom"
                   data-html="true"
-                  :title="'<div class=\'pattr-tooltip\'><img src=\'' + askAQuestion + '\'/></div>'"
+                  :title="
+                    '<div class=\'pattr-tooltip\'><img src=\'' +
+                      askAQuestion +
+                      '\'/></div>'
+                  "
                   class="in-page-link mb-4"
                   >See storyboard to ask a question</a
                 >
@@ -562,7 +565,7 @@
             >
               <h2 class="section-title">Next Steps</h2>
               <p class="section-content">
-                With more time, I would carry out usability and heuristics
+                With more time, I would carry out <mark>usability and heuristics</mark>
                 testing on my solution. I would also explore the idea of
                 integrating social media apps like instagram that deal with
                 sharing memories.
@@ -580,10 +583,9 @@
             >
               <h2 class="section-title">Lessons Learned</h2>
               <p class="section-content">
-                This was my first mobile app design as well as my first
-                individual UX project. Throughout the process I learned best
-                practices of designing mobile apps, and also became familiar
-                with the iOS design style guide.
+                This was my <mark>first mobile app UI design project</mark>. Throughout the process I learned <mark>best
+                practices of designing mobile apps</mark>, and also became familiar
+                with the <mark>iOS design</mark> style guide.
               </p>
             </article>
           </div>
@@ -645,12 +647,10 @@ export default {
 </script>
 
 <style>
-
-
- .tooltip-inner {
+.tooltip-inner {
   width: 600px !important;
   max-width: 600px;
-  padding: 0
+  padding: 0;
 }
 
 .pattr-tooltip {
@@ -701,10 +701,7 @@ main {
   /* height: 100vh; */
   /* overflow-y: scroll; */
 }
-.content-wrapper,
-header {
-  min-height: 100vh;
-}
+
 .header-wrapper {
   background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589229026/Scene_1_emqhnp.png");
   background-repeat: no-repeat;
@@ -754,7 +751,7 @@ header {
 .light-gradient .section-title {
   color: #11624b;
 }
-.light-gradient .section-content {
+.light-gradient .section-content, mark {
   color: #051e17;
 }
 
@@ -775,11 +772,13 @@ header {
 }
 
 .section-bg-title {
-  font-family: "SF Pro Rounded","Nunito", sans-serif;
+  font-family: "SF Pro Rounded", "Nunito", sans-serif;
   color: #647777;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 88.9%;
+  margin: 0 0 40px;
+  display: inline-block;
 }
 
 .section-bg-title__light {
@@ -806,13 +805,9 @@ header {
   box-shadow: 0px 2px 20px #303e3e65;
 }
 
-.container {
-  height: 100%;
-}
-
-.content-wrapper {
+/* .content-wrapper {
   height: 100vh;
-}
+} */
 .dark-gradient a.in-page-link {
   color: #9fb2b2;
 }
@@ -847,6 +842,11 @@ li::before {
   margin-right: 5px;
 }
 
+.content-wrapper,
+header {
+  padding: 80px 0;
+}
+
 .icon.down-arrow {
   background-color: #11624b;
   animation: bounce 1s infinite alternate;
@@ -861,6 +861,14 @@ li::before {
   align-items: center;
   background: #cee3de;
 }
+
+ .pattr-features {
+    padding: 80px 0 0;
+  }
+
+  .container {
+    height: 100%;
+  }
 /* MEDIA QUERIES */
 /* --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -868,13 +876,14 @@ li::before {
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px; */
 
-@media (min-width: 576px) {
+@media (min-width: 769px) {
   h1 {
     font-size: 80px;
   }
   .section-bg-title {
     font-size: 110px;
     line-height: 88.9%;
+    margin: 0;
   }
   .large-font {
     font-size: 110px;
@@ -887,6 +896,21 @@ li::before {
   }
   main > * {
     font-size: 20px;
+  }
+  .content-wrapper {
+    height: 100vh;
+  }
+  
+  .content-wrapper,
+  header {
+    min-height: 100vh;
+  }
+  .content-wrapper,
+  header {
+    padding: 120px 0;
+  }
+  .pattr-features {
+    padding: 120px 0;
   }
 }
 </style>

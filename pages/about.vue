@@ -19,7 +19,7 @@
             family.
           </p>
         </section>
-        <figure class="col-lg-6">
+        <figure class="col-lg-6" style="background: #f6f7f9;">
           <img
             src="https://res.cloudinary.com/drsp4xifi/image/upload/w_540/q_auto/v1583527434/my_pic_kkehwy.png"
             alt=""
@@ -36,9 +36,10 @@
           </figcaption>
         </figure>
       </div>
-      <h3 class="mt-4">Skills</h3>
+
       <div class="row">
-        <div class="col-md-4 col-lg-2">
+        <div class="col-md-12" style="background: #f6f7f9;"><h3 class="mt-4">Skills</h3></div>
+        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
           <h4>Design</h4>
           <ul>
             <li>Prototyping</li>
@@ -47,7 +48,7 @@
             <li>Storyboarding</li>
           </ul>
         </div>
-        <div class="col-md-4 col-lg-2">
+        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
           <h4>Research</h4>
           <ul>
             <li>
@@ -64,7 +65,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-4 col-lg-2">
+        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
           <h4>Design Tools</h4>
           <ul>
             <li>
@@ -78,7 +79,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-4 col-lg-2">
+        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
           <h4>Programming</h4>
           <ul>
             <li>
@@ -95,7 +96,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-4 ">
+        <div class="col-md-4 " style="background: #f6f7f9;">
           <a
             class="view"
             href="#"
@@ -176,11 +177,11 @@ a {
 }
 
 main {
-    padding-top: 50px;
-  }
+  padding-top: 50px;
+}
 @media (min-width: 576px) {
   .footer-bg {
-      font-family: "SF Pro Rounded", "Nunito", sans-serif;
+    font-family: "SF Pro Rounded", "Nunito", sans-serif;
 
     font-size: 130px;
     text-transform: uppercase;

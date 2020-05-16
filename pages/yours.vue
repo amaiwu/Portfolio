@@ -52,7 +52,7 @@
             data-aos-once="true"
           >
             <span
-              class="section-bg-title section-bg-title__light text-right position-relative"
+              class="section-bg-title section-bg-title__light position-relative"
               >PROJECT<br />
               OVERVIEW</span
             >
@@ -66,10 +66,27 @@
               data-aos-easing="ease-in"
               data-aos-once="true"
             >
-              <p class="section-content">
+              <p class="section-content mt-4">
                 <b><em>Yours</em></b> was a school project for a UI design
-                course. In the next section is a keynote presentation that shows
-                the problem I identified, my solution, as well as my process.
+                course. In the next section is a
+                <a
+                  href="#"
+                  class="in-page-link"
+                  v-scroll-to="'#keynote-presentation'"
+                  >keynote presentation</a
+                >
+                that details the problem it was designed to solve, as well as my
+                design process.
+              </p>
+              <p>
+                In the final section, I share
+                <a href="#" class="in-page-link" v-scroll-to="'#final-section'"
+                  >next steps</a
+                >
+                and
+                <a href="#" class="in-page-link" v-scroll-to="'#final-section'"
+                  >lessons learned.</a
+                >
               </p>
             </article>
           </div>
@@ -77,6 +94,7 @@
       </div>
     </section>
     <section
+      id="keynote-presentation"
       class="content-wrapper dark-gradient"
       style="padding: 120px 0;min-height: 100vh; height: unset"
     >
@@ -110,7 +128,7 @@
           </div>
 
           <iframe
-            src="https://tender-darwin-3c1dd0.netlify.app/assets/player/keynotedhtmlplayer#0"
+            src="https://yours-ui.netlify.app"
             allowfullscreen="true"
             frameborder="0"
             height="100%"
@@ -119,7 +137,7 @@
         </div>
       </div>
     </section>
-    <section class="content-wrapper light-gradient">
+    <section class="content-wrapper light-gradient" id="final-section">
       <div class="container">
         <div class="row h-100 align-items-center">
           <div class="col-md-6">
@@ -151,9 +169,9 @@
             >
               <h2 class="section-title">Lessons Learned</h2>
               <p class="section-content">
-                I learned a lot about user onboarding and it's role in setting
+                I learned a lot about <mark>user onboarding</mark> and it's role in setting
                 the tone for users' experience of a product. I also learned best
-                UI design practices for mobile apps.
+                <mark>UI design practices for mobile apps</mark>.
               </p>
             </article>
           </div>
@@ -194,7 +212,6 @@ export default {
 .yours-tooltipp.tip {
   text-align: left;
   color: hsl(22, 71%, 7%);
-  
 }
 .yours-tooltip {
   width: 100% !important;
@@ -206,7 +223,7 @@ export default {
   opacity: 1;
 }
 
-.yours-tooltip  img {
+.yours-tooltip img {
   display: block;
   background: #d3e4e0;
   height: auto;
@@ -264,20 +281,13 @@ iframe {
   border-radius: 4px;
 }
 
-.content-wrapper,
-header {
-  min-height: 100vh;
-}
-.content-wrapper {
-  height: 100vh;
-}
-a.in-page-link {
+.iframe-wrapper a.in-page-link {
   color: hsl(22, 11%, 66%);
 }
 
-/* a.in-page-link::before {
+p a.in-page-link::before {
   background-color: hsl(22, 16%, 63%);
-} */
+}
 .header-wrapper {
   background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1589470812/Scene_3_titug3.png");
   background-repeat: no-repeat;
@@ -322,7 +332,7 @@ header {
 .light-gradient .section-title {
   color: hsl(22, 70%, 23%);
 }
-.light-gradient .section-content {
+.light-gradient .section-content, mark {
   color: hsl(22, 71%, 7%);
 }
 
@@ -365,7 +375,10 @@ header {
   align-items: center;
   background: hsl(22, 27%, 85%);
 }
-
+.content-wrapper,
+header {
+  padding: 120px 0;
+}
 @media (min-width: 576px) {
   h1 {
     font-size: 80px;
@@ -385,6 +398,13 @@ header {
   }
   main > * {
     font-size: 20px;
+  }
+  .content-wrapper,
+  header {
+    min-height: 100vh;
+  }
+  .content-wrapper {
+    height: 100vh;
   }
 }
 </style>
