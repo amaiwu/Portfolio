@@ -642,7 +642,7 @@
     >
       <article class="col-md-7">
         <h2 class="mb-5">Evaluation and Testing</h2>
-        <h4>Guerilla Testing and Heuristics Evaluation</h4>
+        <h4>Guerilla Testing and Heuristic Evaluation</h4>
         <p class="">
           We had little time available for testing, so we used guerilla testing
           methods to evaluate our designs. We engaged
@@ -656,7 +656,7 @@
         </p>
         <p>
           We also had the expertise of <strong>2 Senior UX Designers</strong> at
-          our disposal, whom we asked to carry out heuristics evaluation in
+          our disposal, whom we asked to carry out heuristic evaluation in
           order to identify potential usability issues as well as design flaws
           in our prototype.
         </p>
