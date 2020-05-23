@@ -704,7 +704,7 @@
           </li>
           <li>
             Conduct further evaluations on high fidelity prototype — usability
-            testing and heuristics evaluation.
+            testing and heuristic evaluation.
           </li>
         </ul>
       </article>

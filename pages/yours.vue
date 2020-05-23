@@ -152,7 +152,7 @@
               <h2 class="section-title">Next Steps</h2>
               <p class="section-content">
                 With more time, I would carry out
-                <mark>usability testing and heuristics evaluation</mark>. I
+                <mark>usability testing and heuristic evaluation</mark>. I
                 would also conduct some <mark>research</mark> on the
                 possibilities of integrating with food app platforms.
               </p>

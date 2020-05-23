@@ -576,10 +576,10 @@
               <h2 class="section-title">Next Steps</h2>
               <p class="section-content">
                 With more time, I would carry out
-                <mark>usability and heuristics</mark>
-                testing on my solution. I would also explore the idea of
-                integrating social media apps like instagram that deal with
-                sharing memories.
+                <mark>usability testing and heuristic evaluation</mark>
+                on my solution. I would also explore the idea of integrating
+                social media apps like instagram that deal with sharing
+                memories.
               </p>
             </article>
           </div>
@@ -758,7 +758,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  background-color:hsl(180deg 11% 17%);
+  background-color: hsl(180deg 11% 17%);
   /* margin-top: 100vh; */
 }
 

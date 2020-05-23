@@ -28,6 +28,7 @@
                 <div class="tags">
                   <span class="tag">UX/UI Design</span>
                   <span class="tag">Mobile</span>
+                  <span class="tag">Figma</span>
                 </div>
               </div>
             </div>
@@ -58,6 +59,7 @@
                 <div class="tags">
                   <span class="tag">UX/UI Design</span>
                   <span class="tag">Mobile</span>
+                  <span class="tag">Figma</span>
                 </div>
               </div>
             </div>
@@ -88,6 +90,7 @@
                 <div class="tags">
                   <span class="tag">UX Case Study</span>
                   <span class="tag">Mobile</span>
+                  <span class="tag">Balsamiq</span>
                 </div>
               </div>
             </div>
@@ -118,6 +121,7 @@
                   <span class="tag">IA</span>
                   <span class="tag">Web</span>
                   <span class="tag">Wireframing</span>
+                  <span class="tag">Balsamiq</span>
                 </div>
               </div>
             </div>
