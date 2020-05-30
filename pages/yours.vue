@@ -160,7 +160,7 @@
           </div>
           <div class="col-md-6 ">
             <article
-              class="section mt-5"
+              class="section"
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
