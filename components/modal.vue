@@ -19,7 +19,13 @@
       <div class="modal-content h-100">
         <figure class="mb-0">
           <img
-            v-if="image.src"
+            v-if="image.src && cloudinary"
+            :src="image.src"
+            :alt="image.alt"
+            class="img-fluid"
+          />
+          <img
+            v-else-if="image.src && !cloudinary"
             :src="require('~/assets/images/' + image.src)"
             :alt="image.alt"
             class="img-fluid"
@@ -32,7 +38,7 @@
 
 <script>
 export default {
-  props: ["image", "small"]
+  props: ["image", "small", "cloudinary"]
 };
 </script>
 

@@ -1,6 +1,7 @@
 <template>
-  <main style="background: #f6f7f9;" class="pb-5">
-    <ImageModal :image="image" :small="true" />
+  <main style="background: #f6f7f9;" class="pb-5"
+  >
+    <ImageModal :image="image" :small="true" :cloudinary="true"/>
     <div class="container pt-5">
       <div class="footer-bg position-fixed" style="top: 73px">ABOUT ME</div>
       <div class="row justify-content-between align-items-center">
@@ -38,7 +39,9 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12" style="background: #f6f7f9;"><h3 class="mt-4">Skills</h3></div>
+        <div class="col-md-12" style="background: #f6f7f9;">
+          <h3 class="mt-4">Skills</h3>
+        </div>
         <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
           <h4>Design</h4>
           <ul>
@@ -100,7 +103,13 @@
           <a
             class="view"
             href="#"
-            @click="launchModal({ src: 'resume.png', alt: 'My resume' })"
+            @click="
+              launchModal({
+                src:
+                  'https://res.cloudinary.com/drsp4xifi/image/upload/v1590925076/My%20resume.png',
+                alt: 'My resume'
+              })
+            "
             >View my resume</a
           >
         </div>
@@ -120,7 +129,7 @@ export default {
     return {
       image: {
         alt: "",
-        src: ""
+        src: "",
       }
     };
   },
