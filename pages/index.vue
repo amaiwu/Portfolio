@@ -23,7 +23,7 @@
           </div>
         </div>
       </section>
-      <footer class="text-center my-5 pt-5">
+      <footer class="text-center mt-5 py-5">
         <span>
           Website designed and built by me :-)
         </span>
@@ -46,6 +46,8 @@ main {
   height: 100vh;
   background: rgb(71, 84, 111);
   color: #f6f7f9;
+  max-height: 100vh;
+  overflow-y: scroll;
   /* background: #f6f7f9; */
 }
 
