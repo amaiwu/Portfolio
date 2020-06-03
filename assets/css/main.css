@@ -72,6 +72,10 @@ a.in-page-link:hover::before {
   bottom: -2px;
 }
 
+button {
+ cursor: pointer;
+}
+
 h1,
 h2,
 h3,
