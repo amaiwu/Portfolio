@@ -44,19 +44,7 @@
     <section class="content-wrapper light-gradient" id="overview">
       <div class="container">
         <div class="row h-100 align-items-center">
-          <div
-            class="col-md-6"
-            data-aos="fade-in"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-back"
-            data-aos-once="true"
-          >
-            <span
-              class="section-bg-title section-bg-title__light position-relative"
-              >PROJECT<br />
-              OVERVIEW</span
-            >
-          </div>
+         
           <div class="col-md-6">
             <article
               class="section"
@@ -89,6 +77,19 @@
                 >
               </p>
             </article>
+          </div>
+           <div
+            class="col-md-6"
+            data-aos="fade-in"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-back"
+            data-aos-once="true"
+          >
+            <span
+              class="section-bg-title section-bg-title__light position-relative"
+              >PROJECT<br />
+              OVERVIEW</span
+            >
           </div>
         </div>
       </div>
