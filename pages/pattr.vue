@@ -146,7 +146,7 @@
             >
               <h2 class="section-title">User Analysis</h2>
               <p class="section-content">
-                I created an empathy map for a proto-persona I created based on
+                Using an empathy map, I created for a proto-persona based on
                 my assumptions,
                 <a
                   href="#!"
