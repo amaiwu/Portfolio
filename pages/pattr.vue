@@ -50,7 +50,6 @@
       </div> -->
       <div class="container">
         <div class="row h-100 align-items-center">
-          
           <div class="col-md-6">
             <article
               class="section"
@@ -111,7 +110,6 @@
     <section class="content-wrapper light-gradient">
       <div class="container">
         <div class="row h-100 align-items-center">
-         
           <div class="col-md-6">
             <article
               class="section "
@@ -141,8 +139,8 @@
             >
               <h2 class="section-title">User Analysis</h2>
               <p class="section-content">
-                Using an empathy map, I created for a proto-persona based on
-                my assumptions,
+                Using an empathy map, I created for a proto-persona based on my
+                assumptions,
                 <a
                   href="#!"
                   data-toggle="tooltip"
@@ -155,7 +153,7 @@
               </p>
             </article>
           </div>
-           <div class="col-md-6">
+          <div class="col-md-6">
             <span
               class="section-bg-title text-center section-bg-title__light position-relative"
               >THE<br />
@@ -170,7 +168,6 @@
     <section class="content-wrapper light-gradient">
       <div class="container">
         <div class="row h-100 align-items-center">
-         
           <!--  -->
           <div class="col-md-6">
             <article
@@ -265,7 +262,7 @@
               </p>
             </article>
           </div>
-           <div class="col-md-6">
+          <div class="col-md-6">
             <span
               class="section-bg-title text-center section-bg-title__light position-relative"
               >THE<br />
@@ -681,7 +678,8 @@ export default {
     }
   },
   mounted() {
-    if (this.is_touch_device4) {
+    if (window.matchMedia("(pointer: coarse)").matches) {
+      debugger;
       [...document.querySelectorAll("[data-toggle = 'tooltip']")].forEach(
         item => {
           if (item.classList.contains("viewpdf")) item.dataset.toggle = "";
