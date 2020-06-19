@@ -146,7 +146,7 @@
             >
               <h2 class="section-title">User Analysis</h2>
               <p class="section-content">
-                I created empathy maps for 2 proto-personas I created based on
+                I created an empathy map for a proto-persona I created based on
                 my assumptions,
                 <a
                   href="#!"
@@ -585,7 +585,7 @@
           </div>
           <div class="col-md-6">
             <article
-              class="section mt-5"
+              class="section"
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
