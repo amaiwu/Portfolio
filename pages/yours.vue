@@ -45,7 +45,7 @@
       <div class="container">
         <div class="row h-100 align-items-center">
          
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-0 order-1">
             <article
               class="section"
               data-aos="fade-in"
@@ -79,14 +79,14 @@
             </article>
           </div>
            <div
-            class="col-md-6"
+            class="col-md-6 order-md-1 order-0"
             data-aos="fade-in"
             data-aos-duration="500"
             data-aos-easing="ease-in-back"
             data-aos-once="true"
           >
             <span
-              class="section-bg-title section-bg-title__light position-relative"
+              class="section-bg-title text-md-center section-bg-title__light position-relative"
               >PROJECT<br />
               OVERVIEW</span
             >

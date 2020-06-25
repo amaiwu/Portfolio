@@ -50,7 +50,7 @@
       </div> -->
       <div class="container">
         <div class="row h-100 align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-0 order-1">
             <article
               class="section"
               data-aos="fade-up"
@@ -90,14 +90,14 @@
             </article>
           </div>
           <div
-            class="col-md-6"
+            class="col-md-6 order-md-1 order-0"
             data-aos="fade-in"
             data-aos-duration="500"
             data-aos-easing="ease-in-back"
             data-aos-once="true"
           >
             <span
-              class="section-bg-title text-center section-bg-title__light position-relative"
+              class="section-bg-title text-md-center section-bg-title__light position-relative"
               >PROJECT<br />
               OVERVIEW</span
             >
@@ -110,7 +110,7 @@
     <section class="content-wrapper light-gradient">
       <div class="container">
         <div class="row h-100 align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-0 order-1">
             <article
               class="section "
               data-aos="fade-up"
@@ -139,7 +139,7 @@
             >
               <h2 class="section-title">User Analysis</h2>
               <p class="section-content">
-                Using an empathy map, I created for a proto-persona based on my
+                Using an empathy map, I created a proto-persona based on my
                 assumptions,
                 <a
                   href="#!"
@@ -153,9 +153,9 @@
               </p>
             </article>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-1 order-0">
             <span
-              class="section-bg-title text-center section-bg-title__light position-relative"
+              class="section-bg-title text-md-center section-bg-title__light position-relative"
               >THE<br />
               PROCESS</span
             >
@@ -169,7 +169,7 @@
       <div class="container">
         <div class="row h-100 align-items-center">
           <!--  -->
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-0 order-1">
             <article
               class="section"
               data-aos="fade-up"
@@ -262,9 +262,9 @@
               </p>
             </article>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-1 order-0">
             <span
-              class="section-bg-title text-center section-bg-title__light position-relative"
+              class="section-bg-title text-md-center section-bg-title__light position-relative"
               >THE<br />
               PROCESS</span
             >
