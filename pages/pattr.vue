@@ -28,10 +28,7 @@
                 UI/UX DESIGN • 2 week duration • Individual Project
               </p>
               <a
-                data-aos="zoom-in"
-                data-aos-duration="1500"
-                data-aos-easing="ease-in-back"
-                data-aos-once="true"
+            
                 href="#overview"
                 v-scroll-to="'#overview'"
                 class="scroll-down"
@@ -53,11 +50,7 @@
           <div class="col-md-6 order-md-0 order-1">
             <article
               class="section"
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-duration="800"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
+          
             >
               <h2 class="section-title">Brief</h2>
               <p class="section-content">
@@ -71,11 +64,7 @@
             </article>
             <article
               class="section mt-5"
-              data-aos="fade-up"
-              data-aos-delay="800"
-              data-aos-duration="600"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
+          
             >
               <h2 class="section-title pt-4">The Solution</h2>
               <p class="section-content">
@@ -91,10 +80,7 @@
           </div>
           <div
             class="col-md-6 order-md-1 order-0"
-            data-aos="fade-in"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-back"
-            data-aos-once="true"
+          
           >
             <span
               class="section-bg-title text-md-center section-bg-title__light position-relative"
@@ -113,10 +99,6 @@
           <div class="col-md-6 order-md-0 order-1">
             <article
               class="section "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
             >
               <h2 class="section-title">Assumptions & Research</h2>
               <p class="section-content">
@@ -131,11 +113,6 @@
             </article>
             <article
               class="section mt-5"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-duration="800"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
             >
               <h2 class="section-title">User Analysis</h2>
               <p class="section-content">
@@ -172,10 +149,6 @@
           <div class="col-md-6 order-md-0 order-1">
             <article
               class="section"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
             >
               <h2 class="section-title">Ideation</h2>
               <p class="section-content">
@@ -193,40 +166,23 @@
                 identifying 3 major tasks.
               </p>
               <li
-                data-aos="fade-up"
-                data-aos-delay="800"
-                data-aos-duration="800"
-                data-aos-easing="zoom-in"
-                data-aos-once="true"
               >
                 Share a story
               </li>
               <li
-                data-aos="fade-up"
-                data-aos-delay="900"
-                data-aos-duration="800"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+      
               >
                 Ask a question
               </li>
               <li
-                data-aos="fade-up"
-                data-aos-delay="1000"
-                data-aos-duration="800"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+          
               >
                 Share a memory
               </li>
             </article>
             <article
               class="section mt-5"
-              data-aos="fade-up"
-              data-aos-delay="1000"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
+      
             >
               <!-- https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_600/v1589313866/Screen_Shot_2020-05-12_at_4.03.56_PM_ke2qpr.png -->
               <h2 class="section-title">Sketches & Wireframing</h2>
@@ -284,10 +240,7 @@
         </article> -->
         <div
           class="text-center pattr-features"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in"
-          data-aos-once="true"
+
         >
           <span class="section-bg-title section-bg-title__dark text-center"
             >PATTR FEATURES</span
@@ -301,11 +254,7 @@
             <div class="col-md-5 d-flex align-items-center">
               <article
                 class="section"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+    
               >
                 <h2 class="section-title">Share a story</h2>
                 <p class="section-content">
@@ -314,11 +263,7 @@
                 </p>
 
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="600"
-                  data-aos-easing="ease-in-back"
-                  data-aos-once="true"
+          
                   @click="viewPDF(tellAStory)"
                   href="#!"
                   data-toggle="tooltip"
@@ -352,10 +297,7 @@
           <div class="row">
             <div class="col-md-7 order-1 order-md-0">
               <figure
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+            
               >
                 <img
                   src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312160/Group_133_l9f0rl.png"
@@ -367,11 +309,7 @@
             <div class="col-md-5 d-flex align-items-center order-md-1 order-0">
               <article
                 class="section"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="600"
-                data-aos-easing="ease-in-back"
-                data-aos-once="true"
+              
               >
                 <h2 class="section-title">Ask a question</h2>
                 <p class="section-content">
@@ -379,11 +317,7 @@
                   made visible to users based on their location.
                 </p>
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="600"
-                  data-aos-easing="ease-in-back"
-                  data-aos-once="true"
+              
                   @click="viewPDF(askAQuestion)"
                   href="#!"
                   data-toggle="tooltip"
@@ -398,11 +332,7 @@
                   >See storyboard to ask a question</a
                 >
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="800"
-                  data-aos-easing="ease-in-back"
-                  data-aos-once="true"
+              
                   @click="viewPDF(answerAQuestion)"
                   href="#!"
                   data-toggle="tooltip"
@@ -423,11 +353,7 @@
             <div class="col-md-5 d-flex align-items-center">
               <article
                 class="section"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="600"
-                data-aos-easing="ease-in-back"
-                data-aos-once="true"
+             
               >
                 <h2 class="section-title">Experience a place</h2>
                 <p class="section-content">
@@ -438,10 +364,7 @@
             </div>
             <div class="col-md-7">
               <figure
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+               
               >
                 <img
                   src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312161/Group_139_ogub3v.png"
@@ -458,10 +381,7 @@
           <div class="row">
             <div class="col-md-7 order-md-0 order-1">
               <figure
-                data-aos="zoom-in"
-                data-aos-duration="500"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+          
               >
                 <img
                   src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1000/v1589312162/Group_137_w53gfs.png"
@@ -474,10 +394,7 @@
               <article class="section">
                 <h2
                   class="section-title"
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-back"
-                  data-aos-once="true"
+             
                 >
                   Learn about a place
                 </h2>
@@ -486,10 +403,7 @@
                   around the world.
                 </p>
                 <a
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-back"
-                  data-aos-once="true"
+              
                   @click="viewPDF(experienceAPlace)"
                   href="#!"
                   data-toggle="tooltip"
@@ -567,11 +481,7 @@
           <div class="col-md-6">
             <article
               class="section"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
+            
             >
               <h2 class="section-title">Next Steps</h2>
               <p class="section-content">
@@ -586,11 +496,7 @@
           <div class="col-md-6">
             <article
               class="section"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
+            
             >
               <h2 class="section-title">Lessons Learned</h2>
               <p class="section-content">

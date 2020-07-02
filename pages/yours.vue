@@ -5,10 +5,6 @@
       <header
         class="content-wrapper"
         style="padding: 120px 0"
-        data-aos="fade-in"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-back"
-        data-aos-once="true"
       >
         <div class="container">
           <div
@@ -27,10 +23,6 @@
                 UI/UX DESIGN • 2 week duration • Individual Project
               </p>
               <a
-                data-aos="zoom-in"
-                data-aos-duration="1500"
-                data-aos-easing="ease-in-back"
-                data-aos-once="true"
                 href="#overview"
                 v-scroll-to="'#overview'"
                 class="scroll-down"
@@ -48,11 +40,6 @@
           <div class="col-md-6 order-md-0 order-1">
             <article
               class="section"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
             >
               <p class="section-content mt-4">
                 <b><em>Yours</em></b> was a school project for a UI design
@@ -80,10 +67,6 @@
           </div>
            <div
             class="col-md-6 order-md-1 order-0"
-            data-aos="fade-in"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-back"
-            data-aos-once="true"
           >
             <span
               class="section-bg-title text-md-center section-bg-title__light position-relative"
@@ -144,11 +127,6 @@
           <div class="col-md-6">
             <article
               class="section"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
             >
               <h2 class="section-title">Next Steps</h2>
               <p class="section-content">
@@ -162,11 +140,6 @@
           <div class="col-md-6 ">
             <article
               class="section"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              data-aos-easing="ease-in"
-              data-aos-once="true"
             >
               <h2 class="section-title">Lessons Learned</h2>
               <p class="section-content">
