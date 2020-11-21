@@ -102,14 +102,9 @@
         <div class="col-md-4 " style="background: #f6f7f9;">
           <a
             class="view"
-            href="#"
-            @click="
-              launchModal({
-                src:
-                  'https://res.cloudinary.com/drsp4xifi/image/upload/v1590925076/My%20resume.png',
-                alt: 'My resume'
-              })
-            "
+            target="_blank"
+            href="https://res.cloudinary.com/drsp4xifi/image/upload/v1605983541/Chiamaka_s_Resume2_gbdxnw.pdf"
+            
             >View my resume</a
           >
         </div>
