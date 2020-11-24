@@ -38,7 +38,7 @@
         </figure>
       </div>
 
-      <div class="row">
+      <div class="row" style="background: #f6f7f9;">
         <div class="col-md-12" style="background: #f6f7f9;">
           <h3 class="mt-4">Skills</h3>
         </div>
@@ -103,7 +103,7 @@
           <a
             class="view"
             target="_blank"
-            href="https://res.cloudinary.com/drsp4xifi/image/upload/v1606019929/Chiamaka_s_Resume_gw3paf.pdf"
+            href="https://res.cloudinary.com/drsp4xifi/image/upload/v1606177832/Chiamaka_s_Resume_hml8bq.pdf"
             
             >View my resume</a
           >
