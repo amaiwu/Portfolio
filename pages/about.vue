@@ -31,8 +31,8 @@ through user-centred design.
     font-size: 16px;"
           >
             <em style="color: #47546f; font-size: 14px"
-              >The spacefinder team and me ✌🏾😉</em
-            >
+              >The spacefinder team and me </em
+            >✌🏾😉
           </figcaption>
         </figure>
       </div>
