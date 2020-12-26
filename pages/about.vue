@@ -4,8 +4,9 @@
     <ImageModal :image="image" :small="true" :cloudinary="true"/>
     <div class="container pt-5">
       <div class="footer-bg position-fixed" style="top: 73px">ABOUT ME</div>
+      <div style="background: #f6f7f9a3;" class="position-relative">
       <div class="row justify-content-between align-items-center">
-        <section class="col-lg-5" style="background: #f6f7f9;">
+        <section class="col-lg-5">
           <p>
             I'm Chiamaka, an Emerging Product Designer and Software Engineer trained in identifying user needs and solving problems
 through user-centred design.
@@ -19,7 +20,7 @@ through user-centred design.
             technologies, or watching football 🙂.
           </p>
         </section>
-        <figure class="col-lg-6" style="background: #f6f7f9;">
+        <figure class="col-lg-6">
           <img
             src="https://res.cloudinary.com/drsp4xifi/image/upload/w_540/q_auto/v1583527434/my_pic_kkehwy.png"
             alt=""
@@ -37,11 +38,11 @@ through user-centred design.
         </figure>
       </div>
 
-      <div class="row" style="background: #f6f7f9;">
-        <div class="col-md-12" style="background: #f6f7f9;">
+      <div class="row" >
+        <div class="col-md-12" >
           <h3 class="mt-4">Skills</h3>
         </div>
-        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
+        <div class="col-md-4 col-lg-2" >
           <h4>Design</h4>
           <ul>
             <li>Prototyping</li>
@@ -50,7 +51,7 @@ through user-centred design.
             <li>Storyboarding</li>
           </ul>
         </div>
-        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
+        <div class="col-md-4 col-lg-2" >
           <h4>Research</h4>
           <ul>
             <li>
@@ -67,7 +68,7 @@ through user-centred design.
             </li>
           </ul>
         </div>
-        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
+        <div class="col-md-4 col-lg-2" >
           <h4>Design Tools</h4>
           <ul>
             <li>
@@ -81,7 +82,7 @@ through user-centred design.
             </li>
           </ul>
         </div>
-        <div class="col-md-4 col-lg-2" style="background: #f6f7f9;">
+        <div class="col-md-4 col-lg-2" >
           <h4>Programming</h4>
           <ul>
             <li>
@@ -101,7 +102,7 @@ through user-centred design.
             </li>
           </ul>
         </div>
-        <div class="col-md-4 " style="background: #f6f7f9;">
+        <div class="col-md-4 ">
           <a
             class="view"
             target="_blank"
@@ -110,6 +111,7 @@ through user-centred design.
             >View my resume</a
           >
         </div>
+      </div>
       </div>
     </div>
   </main>
