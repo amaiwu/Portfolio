@@ -96,6 +96,9 @@ through user-centred design.
             <li>
               VueJS
             </li>
+            <li>
+              React
+            </li>
           </ul>
         </div>
         <div class="col-md-4 " style="background: #f6f7f9;">
