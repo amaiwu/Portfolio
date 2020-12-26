@@ -7,8 +7,8 @@
       <div class="row justify-content-between align-items-center">
         <section class="col-lg-5" style="background: #f6f7f9;">
           <p>
-            I'm Chiamaka, a User Experience Designer and Frontend Developer
-            based in Toronto, Canada.
+            I'm Chiamaka, an Emerging Product Designer and Software Engineer trained in identifying user needs and solving problems
+through user-centred design.
           </p>
           <p>
             I'm currently studying at the University of Toronto for a Master's
@@ -16,8 +16,7 @@
           </p>
           <p>
             When I'm not designing, I'm bringing designs to life using web
-            technologies, watching football 🙂, or catching up with friends and
-            family.
+            technologies, or watching football 🙂.
           </p>
         </section>
         <figure class="col-lg-6" style="background: #f6f7f9;">

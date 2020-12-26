@@ -12,8 +12,7 @@
             data-aos-once="true"
             class="text-center mt-5"
           >
-            I’m Chiamaka, a User Experience Designer and Frontend Developer
-            focused on creating seemless user experiences.
+            I’m Chiamaka, an Emerging Product Designer and Software Engineer.
           </h1>
           <div class="buttons d-flex justify-content-center mt-5">
             <nuxt-link tag="button" to="portfolio" class="mr-3"
